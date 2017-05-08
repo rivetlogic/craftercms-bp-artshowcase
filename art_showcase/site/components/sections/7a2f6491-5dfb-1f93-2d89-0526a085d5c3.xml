@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>	<display-template>/templates/web/section.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>7a2f</objectGroupId>
+	<objectId>7a2f6491-5dfb-1f93-2d89-0526a085d5c3</objectId>
+	<file-name>7a2f6491-5dfb-1f93-2d89-0526a085d5c3.xml</file-name>
+	<internal-name>Curators Section</internal-name>
+	<navigationName>Curators</navigationName>
+	<backgroundVideo/>
+	<components>	<item>	<value>Curators</value>
+	<key>/site/components/section-headers/curators.xml</key>
+	<include>/site/components/section-headers/curators.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/curators-list.xml</key>
+	<value>Curators List</value>
+	<include>/site/components/curators-list.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></components>
+	<createdDate>5/3/2017 22:59:13</createdDate>
+	<createdDate_dt>5/3/2017 22:59:13</createdDate_dt>
+	<lastModifiedDate>5/8/2017 16:9:50</lastModifiedDate>
+	<lastModifiedDate_dt>5/8/2017 16:9:50</lastModifiedDate_dt>
+</component>

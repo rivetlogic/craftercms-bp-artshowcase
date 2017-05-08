@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/testimonial-carousel</content-type>	<display-template>/templates/web/testimonials-carousel.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>cd24</objectGroupId>
+	<objectId>cd249601-cae0-63f9-b8eb-75ad11c70679</objectId>
+	<file-name>testimonials.xml</file-name>
+	<folder-name/>
+	<internal-name>Testimonials Carousel</internal-name>
+	<testimonials>	<item>	<reviewer>Jane Roe</reviewer>
+	<testimonial>Their framing was both fast and robust. My child's painting looks opulent!</testimonial>
+	</item>	<item>	<reviewer>John Doe</reviewer>
+	<testimonial>My private exhibition was a huge success. They feature a refined and elegant environment.</testimonial>
+	</item>	<item>	<reviewer>Mary Sue</reviewer>
+	<testimonial>I really liked this place.</testimonial>
+	</item></testimonials>
+	<createdDate>5/4/2017 17:41:11</createdDate>
+	<createdDate_dt>5/4/2017 17:41:11</createdDate_dt>
+	<lastModifiedDate>5/4/2017 17:42:3</lastModifiedDate>
+	<lastModifiedDate_dt>5/4/2017 17:42:3</lastModifiedDate_dt>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/service</content-type>	<display-template>/templates/web/service.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d242</objectGroupId>
+	<objectId>d242961d-e9d4-7253-9d24-f23edca16f60</objectId>
+	<internal-name>Private Exhibitions</internal-name>
+	<title>Private Exhibitions</title>
+	<file-name>private-exhibitions.xml</file-name>
+	<folder-name/>
+	<image>/static-assets/images//exhibit paintings.jpeg</image>
+	<description>&lt;p&gt;Host your own private exhibitions with whole wings at your disposal.&lt;/p&gt;</description>
+	<createdDate>5/2/2017 19:5:59</createdDate>
+	<createdDate_dt>5/2/2017 19:5:59</createdDate_dt>
+	<lastModifiedDate>5/8/2017 19:37:45</lastModifiedDate>
+	<lastModifiedDate_dt>5/8/2017 19:37:45</lastModifiedDate_dt>
+	<imagePosition>left</imagePosition>
+</component>
