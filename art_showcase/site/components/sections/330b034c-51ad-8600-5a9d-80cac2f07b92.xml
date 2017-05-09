@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>	<display-template>/templates/web/section.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>330b</objectGroupId>
+	<objectId>330b034c-51ad-8600-5a9d-80cac2f07b92</objectId>
+	<file-name>330b034c-51ad-8600-5a9d-80cac2f07b92.xml</file-name>
+	<internal-name>Our Services Section</internal-name>
+	<navigationName>Our Services</navigationName>
+	<backgroundVideo/>
+	<components>	<item>	<key>/site/components/section-headers/our-services.xml</key>
+	<value>Our Services</value>
+	<include>/site/components/section-headers/our-services.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<value>Framing</value>
+	<key>/site/components/services/framing.xml</key>
+	<include>/site/components/services/framing.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<value>Private Exhibitions</value>
+	<key>/site/components/services/private-exhibitions.xml</key>
+	<include>/site/components/services/private-exhibitions.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></components>
+	<createdDate>5/2/2017 17:49:56</createdDate>
+	<createdDate_dt>5/2/2017 17:49:56</createdDate_dt>
+	<lastModifiedDate>5/8/2017 16:9:55</lastModifiedDate>
+	<lastModifiedDate_dt>5/8/2017 16:9:55</lastModifiedDate_dt>
+</component>

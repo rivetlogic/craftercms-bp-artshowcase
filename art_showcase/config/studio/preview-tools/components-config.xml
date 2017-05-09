@@ -1,0 +1,28 @@
+<config>
+  <category>
+    <label>General</label>
+    <component>
+              <label>Section</label>
+              <type>/component/section</type>
+              <path>/site/components/sections</path>
+    </component>
+    <component>
+              <label>Section Header</label>
+              <type>/component/section-header</type>
+              <path>/site/components/section-headers</path>
+    </component>
+    <component>
+              <label>Carousel</label>
+              <type>/component/carousel</type>
+              <path>/site/components/carousels</path>
+    </component>
+  </category>
+  <browse>
+    <label>Existing Sections</label>
+    <path>/site/components/sections</path>
+  </browse>
+  <browse>
+    <label>All site components</label>
+    <path>/site/components</path>
+  </browse>
+</config>

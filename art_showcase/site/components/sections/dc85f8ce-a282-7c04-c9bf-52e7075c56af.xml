@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>	<display-template>/templates/web/section.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>dc85</objectGroupId>
+	<objectId>dc85f8ce-a282-7c04-c9bf-52e7075c56af</objectId>
+	<file-name>dc85f8ce-a282-7c04-c9bf-52e7075c56af.xml</file-name>
+	<internal-name>About Us Section</internal-name>
+	<backgroundVideo/>
+	<createdDate>4/27/2017 18:48:56</createdDate>
+	<createdDate_dt>4/27/2017 18:48:56</createdDate_dt>
+	<lastModifiedDate>5/8/2017 16:9:40</lastModifiedDate>
+	<lastModifiedDate_dt>5/8/2017 16:9:40</lastModifiedDate_dt>
+	<components>	<item>	<key>/site/components/section-headers/about-us.xml</key>
+	<value>About Us</value>
+	<include>/site/components/section-headers/about-us.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<value>About Highlights</value>
+	<key>/site/components/about-highlights.xml</key>
+	<include>/site/components/about-highlights.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></components>
+	<navigationName>About Us</navigationName>
+</component>

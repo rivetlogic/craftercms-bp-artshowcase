@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/curators</content-type>	<display-template>/templates/web/curators.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6bb1</objectGroupId>
+	<objectId>6bb174dc-1db0-c883-481b-d7119122dfc4</objectId>
+	<internal-name>Curators List</internal-name>
+	<file-name>curators-list.xml</file-name>
+	<folder-name/>
+	<createdDate>5/3/2017 23:11:23</createdDate>
+	<createdDate_dt>5/3/2017 23:11:23</createdDate_dt>
+	<lastModifiedDate>5/5/2017 18:25:6</lastModifiedDate>
+	<lastModifiedDate_dt>5/5/2017 18:25:6</lastModifiedDate_dt>
+	<curators>	<item>	<fullName>Jack Corfield</fullName>
+	<title>Art Deco Curator</title>
+	<facebookURL>https://www.facebook.com/CrafterSoftware</facebookURL>
+	<googlePlusURL>https://plus.google.com/+Craftersoftware</googlePlusURL>
+	<photo>/static-assets/images/people/team1.jpg</photo>
+	</item>	<item>	<photo>/static-assets/images/people/team2.jpg</photo>
+	<fullName>Mohammad alamin</fullName>
+	<title>Post-Modern Curator</title>
+	<facebookURL>https://www.facebook.com/CrafterSoftware</facebookURL>
+	<googlePlusURL>https://plus.google.com/+Craftersoftware</googlePlusURL>
+	</item>	<item>	<photo>/static-assets/images/people/team3.jpg</photo>
+	<fullName>Brock Tardent</fullName>
+	<title>Expressionism Curator</title>
+	<facebookURL>https://www.facebook.com/CrafterSoftware</facebookURL>
+	<googlePlusURL>https://plus.google.com/+Craftersoftware</googlePlusURL>
+	</item>	<item>	<photo>/static-assets/images/people/team4.jpg</photo>
+	<fullName>Brock Roe</fullName>
+	<title>Impressionism Curator</title>
+	<facebookURL>https://www.facebook.com/CrafterSoftware</facebookURL>
+	<googlePlusURL>https://plus.google.com/+Craftersoftware</googlePlusURL>
+	</item></curators>
+</component>

@@ -1,0 +1,1 @@
+<#macro internalNameToID name>${name?trim?replace(" ", "-")?lower_case}</#macro>
