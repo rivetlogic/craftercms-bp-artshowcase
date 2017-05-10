@@ -1,6 +1,6 @@
-<content-type name="/component/curators" is-wcm-type="true">
-	<label>Curators</label>
-	<form>/component/curators</form>
+<content-type name="/component/teammate" is-wcm-type="true">
+	<label>Component - Teammate</label>
+	<form>/component/teammate</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 	<file-extension>xml</file-extension>
