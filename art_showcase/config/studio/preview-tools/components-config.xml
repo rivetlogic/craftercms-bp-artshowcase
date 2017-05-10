@@ -11,11 +11,6 @@
               <type>/component/section-header</type>
               <path>/site/components/section-headers</path>
     </component>
-    <component>
-              <label>Carousel</label>
-              <type>/component/carousel</type>
-              <path>/site/components/carousels</path>
-    </component>
   </category>
   <browse>
     <label>Existing Sections</label>
