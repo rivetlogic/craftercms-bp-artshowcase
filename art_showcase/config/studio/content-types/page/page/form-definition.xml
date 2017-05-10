@@ -250,7 +250,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value>componentSource</value>
+							<value>components</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -419,8 +419,8 @@
 				</datasource>
 				<datasource>
 					<type>child-content</type>
-					<id>componentSource</id>
-					<title>Component Source</title>
+					<id>components</id>
+					<title>Components</title>
 					<interface>item</interface>
 					<properties>
 						<property>

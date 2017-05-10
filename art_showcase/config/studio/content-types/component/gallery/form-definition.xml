@@ -155,7 +155,7 @@
 	<datasources>				<datasource>
 					<type>img-desktop-upload</type>
 					<id>uploadNewArt</id>
-					<title>Upload New Art</title>
+					<title>Upload Photo</title>
 					<interface>image</interface>
 					<properties>
 						<property>
@@ -168,7 +168,7 @@
 				<datasource>
 					<type>img-repository-upload</type>
 					<id>browseExistingPhotos</id>
-					<title>Browse Existing Photos</title>
+					<title>Existing Photos</title>
 					<interface>image</interface>
 					<properties>
 						<property>

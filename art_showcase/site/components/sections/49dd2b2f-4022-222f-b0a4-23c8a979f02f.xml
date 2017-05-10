@@ -6,7 +6,7 @@
 	<objectId>49dd2b2f-4022-222f-b0a4-23c8a979f02f</objectId>
 	<file-name>49dd2b2f-4022-222f-b0a4-23c8a979f02f.xml</file-name>
 	<internal-name>Intro Section</internal-name>
-	<navigationName>Intro Section</navigationName>
+	<navigationName>Intro</navigationName>
 	<backgroundVideo>/static-assets/video/museum minute.mp4</backgroundVideo>
 	<components>	<item>	<key>/site/components/intro-hero.xml</key>
 	<value>Intro Hero Text</value>
@@ -15,6 +15,6 @@
 	</item></components>
 	<createdDate>5/8/2017 19:48:20</createdDate>
 	<createdDate_dt>5/8/2017 19:48:20</createdDate_dt>
-	<lastModifiedDate>5/8/2017 19:55:13</lastModifiedDate>
-	<lastModifiedDate_dt>5/8/2017 19:55:13</lastModifiedDate_dt>
+	<lastModifiedDate>5/9/2017 19:6:23</lastModifiedDate>
+	<lastModifiedDate_dt>5/9/2017 19:6:23</lastModifiedDate_dt>
 </component>

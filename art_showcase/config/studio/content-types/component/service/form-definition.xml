@@ -281,7 +281,7 @@
 	<datasources>				<datasource>
 					<type>img-desktop-upload</type>
 					<id>uploadimage</id>
-					<title>Upload image</title>
+					<title>Upload Image</title>
 					<interface>image</interface>
 					<properties>
 						<property>
@@ -294,7 +294,7 @@
 				<datasource>
 					<type>img-repository-upload</type>
 					<id>browseExistingImages</id>
-					<title>Browse Existing Images</title>
+					<title>Existing Images</title>
 					<interface>image</interface>
 					<properties>
 						<property>
