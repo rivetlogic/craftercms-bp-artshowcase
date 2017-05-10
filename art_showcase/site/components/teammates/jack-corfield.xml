@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/teammate</content-type>	<display-template>/templates/web/teammate.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>4b26</objectGroupId>
+	<objectId>4b26e9f3-7fdc-4792-b421-456f420f0692</objectId>
+	<file-name>jack-corfield.xml</file-name>
+	<folder-name/>
+	<internal-name>Jack Corfield</internal-name>
+	<fullName>Jack Corfield</fullName>
+	<title>Art Deco Curator</title>
+	<photo>/static-assets/images/people/team1.jpg</photo>
+	<socialLinks>	<item>	<url>http://www.linkedin.com/company/crafter-software</url>
+	<network>fa-linkedin-square</network>
+	</item>	<item>	<network>fa-github-alt</network>
+	<url>https://github.com/craftercms/</url>
+	</item></socialLinks>
+	<createdDate>5/9/2017 21:33:41</createdDate>
+	<createdDate_dt>5/9/2017 21:33:41</createdDate_dt>
+	<lastModifiedDate>5/10/2017 16:47:23</lastModifiedDate>
+	<lastModifiedDate_dt>5/10/2017 16:47:23</lastModifiedDate_dt>
+</component>

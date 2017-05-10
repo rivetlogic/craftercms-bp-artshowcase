@@ -1,6 +1,6 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio/>
 
-<div class="container" <@studio.componentAttr path=contentModel.storeUrl />>
+<div class="container">
   <div class="head_title m-y-3  wow fadeInUp">
     <div class="row" <@studio.iceAttr iceGroup="visible" path=contentModel.storeUrl label="Header" /> >
       <div class="col-md-4">

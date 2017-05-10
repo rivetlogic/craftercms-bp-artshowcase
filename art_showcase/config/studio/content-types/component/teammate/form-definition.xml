@@ -1,13 +1,13 @@
 <form>
-	<title>Curators</title>
+	<title>Component - Teammate</title>
 	<description></description>
 	<objectType>component</objectType>
-	<content-type>/component/curators</content-type>
+	<content-type>/component/teammate</content-type>
 	<imageThumbnail>undefined</imageThumbnail>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/curators.ftl</value>
+			<value>/templates/web/teammate.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -18,7 +18,7 @@
 		</property>
 	</properties>
 	<sections>		<section>
-			<title>Curators Properties</title>
+			<title>Component - Teammate Properties</title>
 			<description></description>
 			<defaultOpen>true</defaultOpen>
 			<fields>
@@ -81,35 +81,14 @@
 			</fields>
 		</section>
 		<section>
-			<title>Curators</title>
+			<title>Teammate</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
 				<field>
-					<type>repeat</type>
-					<id>curators</id>
-					<iceId></iceId>
-					<title>Curators</title>
-					<description></description>
-					<minOccurs>0</minOccurs>
-					<maxOccurs>*</maxOccurs>
-					<properties>
-						<property>
-							<name>minOccurs</name>
-							<value>0</value>
-							<type>string</type>
-						</property>
-						<property>
-							<name>maxOccurs</name>
-							<value>*</value>
-							<type>string</type>
-						</property>
-					</properties>
-					<fields>
-				<field>
 					<type>image-picker</type>
 					<id>photo</id>
-					<iceId></iceId>
+					<iceId>visible</iceId>
 					<title>Photo</title>
 					<description></description>
 					<defaultValue></defaultValue>
@@ -149,7 +128,7 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[]]></value>
+							<value><![CDATA[true]]></value>
 							<type>boolean</type>
 						</constraint>
 					</constraints>
@@ -157,7 +136,7 @@
 				<field>
 					<type>input</type>
 					<id>fullName</id>
-					<iceId></iceId>
+					<iceId>visible</iceId>
 					<title>Full Name</title>
 					<description></description>
 					<defaultValue></defaultValue>
@@ -187,7 +166,7 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[]]></value>
+							<value><![CDATA[true]]></value>
 							<type>boolean</type>
 						</constraint>
 						<constraint>
@@ -200,7 +179,7 @@
 				<field>
 					<type>input</type>
 					<id>title</id>
-					<iceId></iceId>
+					<iceId>visible</iceId>
 					<title>Title</title>
 					<description></description>
 					<defaultValue></defaultValue>
@@ -230,7 +209,7 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[]]></value>
+							<value><![CDATA[true]]></value>
 							<type>boolean</type>
 						</constraint>
 						<constraint>
@@ -241,32 +220,48 @@
 					</constraints>
 				</field>
 				<field>
-					<type>input</type>
-					<id>facebookURL</id>
+					<type>repeat</type>
+					<id>socialLinks</id>
+					<iceId>visible</iceId>
+					<title>Social Links</title>
+					<description></description>
+					<minOccurs>0</minOccurs>
+					<maxOccurs>*</maxOccurs>
+					<properties>
+						<property>
+							<name>minOccurs</name>
+							<value>0</value>
+							<type>string</type>
+						</property>
+						<property>
+							<name>maxOccurs</name>
+							<value>*</value>
+							<type>string</type>
+						</property>
+					</properties>
+					<fields>
+				<field>
+					<type>dropdown</type>
+					<id>network</id>
 					<iceId></iceId>
-					<title>Facebook URL</title>
+					<title>Network</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
+							<name>datasource</name>
+							<value>socialMediaTypes</value>
+							<type>datasource:item</type>
 						</property>
 						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
+							<name>emptyvalue</name>
 							<value></value>
 							<type>boolean</type>
 						</property>
 						<property>
-							<name>tokenize</name>
-							<value>false</value>
+							<name>readonly</name>
+							<value></value>
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -276,18 +271,13 @@
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
 					</constraints>
 				</field>
 				<field>
 					<type>input</type>
-					<id>googlePlusURL</id>
+					<id>url</id>
 					<iceId></iceId>
-					<title>Google Plus URL</title>
+					<title>URL</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -347,12 +337,35 @@
 				<datasource>
 					<type>img-repository-upload</type>
 					<id>browseExistingPhotos</id>
-					<title>Browse Existing Photos</title>
+					<title>Existing Photos</title>
 					<interface>image</interface>
 					<properties>
 						<property>
 							<name>repoPath</name>
 							<value>/static-assets/images/people</value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>key-value-list</type>
+					<id>socialMediaTypes</id>
+					<title>Social Media Types</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>options</name>
+							<value>[{&quot;key&quot;:&quot;fa-facebook&quot;,&quot;value&quot;:&quot;Facebook&quot;},{&quot;key&quot;:&quot;fa-google-plus&quot;,&quot;value&quot;:&quot;Google+&quot;},{&quot;key&quot;:&quot;fa-twitter&quot;,&quot;value&quot;:&quot;Twitter&quot;},{&quot;key&quot;:&quot;fa-linkedin-square&quot;,&quot;value&quot;:&quot;LinkedIn&quot;},{&quot;key&quot;:&quot;fa-instagram&quot;,&quot;value&quot;:&quot;Instagram&quot;},{&quot;key&quot;:&quot;fa-github-alt&quot;,&quot;value&quot;:&quot;GitHub&quot;},{&quot;key&quot;:&quot;fa-snapchat-ghost&quot;,&quot;value&quot;:&quot;Snapchat&quot;}]</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>showkeys</name>
+							<value></value>
 								<type>undefined</type>
 						</property>
 					</properties>

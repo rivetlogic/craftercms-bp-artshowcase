@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/teammate</content-type>	<display-template>/templates/web/teammate.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>cc4a</objectGroupId>
+	<objectId>cc4a0d17-d30b-9be8-6467-5f23d5697e32</objectId>
+	<internal-name>Mohammad Alamin</internal-name>
+	<fullName>Mohammad Alamin</fullName>
+	<title>Post-Modern Curator</title>
+	<file-name>mohammad-alamin.xml</file-name>
+	<folder-name/>
+	<photo>/static-assets/images/people/team2.jpg</photo>
+	<createdDate>5/9/2017 21:35:40</createdDate>
+	<createdDate_dt>5/9/2017 21:35:40</createdDate_dt>
+	<lastModifiedDate>5/10/2017 16:42:25</lastModifiedDate>
+	<lastModifiedDate_dt>5/10/2017 16:42:25</lastModifiedDate_dt>
+	<socialLinks>	<item>	<url>https://twitter.com/craftersoftware</url>
+	<network>fa-twitter</network>
+	</item></socialLinks>
+</component>

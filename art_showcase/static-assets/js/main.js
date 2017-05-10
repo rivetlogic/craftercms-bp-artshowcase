@@ -53,10 +53,6 @@ jQuery(document).ready(function ($) {
         alignment: 'right'
     });
 
-
-// carousel Testimonial slider    
-    //   $('.carousel').carousel();
-
     /*---------------------------------------------*
      * STICKY scroll
      ---------------------------------------------*/
@@ -114,10 +110,6 @@ jQuery(document).ready(function ($) {
         },
     });
 
-//    jQuery('.gallery-video').magnificPopup({
-//        type: 'iframe',
-//    });
-
 
     /*---------------------------------------------*
      * Menu Section
@@ -150,17 +142,18 @@ jQuery(document).ready(function ($) {
                 $window_width = $(window).width();
         $('.cd-blurred-bg').css('clip', 'rect(' + $header_top + 'px, ' + $window_width + 'px, ' + $window_height + 'px, 0px)');
     }
-    // $('#main-nav a[href^="#"]').on('click', function (event) {
-    //     event.preventDefault();
-    //     var target = $(this.hash);
-    //     $('.home-main-content').removeClass('move-out');
-    //     $('#main-nav').removeClass('is-visible');
-    //     $('.cd-shadow-layer').removeClass('is-visible');
-    //     $('body,html').animate(
-    //             {'scrollTop': target.offset().top},
-    //             900
-    //             );
-    // });
+    $('#main-nav a[href^="#"]').on('click', function (event) {
+        event.preventDefault();
+        var target = $(this.hash);
+        $('.home-main-content').removeClass('move-out');
+        $('#main-nav').removeClass('is-visible');
+        $('.cd-shadow-layer').removeClass('is-visible');
+        $('body,html').animate(
+                {'scrollTop': target.offset().top},
+                900
+                );
+    });
+
     $('.main_home ul a[href^="#"]').on('click', function (event) {
         event.preventDefault();
         var target = $(this.hash);

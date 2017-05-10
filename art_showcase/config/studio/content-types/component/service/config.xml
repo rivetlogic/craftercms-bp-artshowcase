@@ -1,5 +1,5 @@
 <content-type name="/component/service" is-wcm-type="true">
-	<label>Service</label>
+	<label>Component - Service</label>
 	<form>/component/service</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
@@ -8,4 +8,9 @@
 	<previewable>false</previewable>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
+	<paths>
+			<includes>
+				<pattern>^/site/components/services/.*</pattern>
+			</includes>
+	</paths>
 </content-type>

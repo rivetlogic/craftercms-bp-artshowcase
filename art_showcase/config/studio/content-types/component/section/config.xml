@@ -1,5 +1,5 @@
 <content-type name="/component/section" is-wcm-type="true">
-	<label>Section</label>
+	<label>Component - Section</label>
 	<form>/component/section</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
@@ -8,4 +8,9 @@
 	<previewable>false</previewable>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
+	<paths> 
+		<includes> 
+			<pattern>^/site/components/sections/.*</pattern> 
+		</includes>
+	</paths>
 </content-type>

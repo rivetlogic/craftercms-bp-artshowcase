@@ -1,13 +1,13 @@
 <form>
-	<title>Testimonial</title>
+	<title>Component - Team</title>
 	<description></description>
 	<objectType>component</objectType>
-	<content-type>/component/testimonial</content-type>
+	<content-type>/component/team</content-type>
 	<imageThumbnail>undefined</imageThumbnail>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/testimonial.ftl</value>
+			<value>/templates/web/team.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -18,7 +18,7 @@
 		</property>
 	</properties>
 	<sections>		<section>
-			<title>Testimonial Properties</title>
+			<title>Team Properties</title>
 			<description></description>
 			<defaultOpen>true</defaultOpen>
 			<fields>
@@ -78,24 +78,36 @@
 						</constraint>
 					</constraints>
 				</field>
+			</fields>
+		</section>
+		<section>
+			<title>Team</title>
+			<description></description>
+			<defaultOpen>false</defaultOpen>
+			<fields>
 				<field>
-					<type>input</type>
-					<id>reviewer</id>
+					<type>node-selector</type>
+					<id>teammates</id>
 					<iceId></iceId>
-					<title>Reviewer</title>
+					<title>Teammates</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>size</name>
-							<value>50</value>
+							<name>minSize</name>
+							<value></value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>maxlength</name>
-							<value>50</value>
+							<name>maxSize</name>
+							<value></value>
 							<type>int</type>
+						</property>
+						<property>
+							<name>itemManager</name>
+							<value>teammates</value>
+							<type>datasource:item</type>
 						</property>
 						<property>
 							<name>readonly</name>
@@ -103,62 +115,19 @@
 							<type>boolean</type>
 						</property>
 						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>textarea</type>
-					<id>testimonial</id>
-					<iceId></iceId>
-					<title>Testimonial</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>cols</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>rows</name>
-							<value>5</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>100000</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>allowResize</name>
-							<value>true</value>
+							<name>disableFlattening</name>
+							<value></value>
 							<type>boolean</type>
 						</property>
 						<property>
-							<name>readonly</name>
+							<name>useSingleValueFilename</name>
 							<value></value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
 						<constraint>
-							<name>required</name>
+							<name>allowDuplicates</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
@@ -167,5 +136,28 @@
 			</fields>
 		</section>
 	</sections>
-	<datasources>	</datasources>
+	<datasources>				<datasource>
+					<type>child-content</type>
+					<id>teammates</id>
+					<title>Teammates</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/site/components/teammates</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>browsePath</name>
+							<value>/site/components/teammates</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>type</name>
+							<value>/component/teammate</value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+	</datasources>
 </form>

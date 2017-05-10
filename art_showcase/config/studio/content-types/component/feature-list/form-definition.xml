@@ -1,5 +1,5 @@
 <form>
-	<title>Feature List</title>
+	<title>Component - Feature List</title>
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/feature-list</content-type>
@@ -271,7 +271,7 @@
 	<datasources>				<datasource>
 					<type>img-desktop-upload</type>
 					<id>uploadNewImage</id>
-					<title>Upload New Image</title>
+					<title>Upload Image</title>
 					<interface>image</interface>
 					<properties>
 						<property>
@@ -284,7 +284,7 @@
 				<datasource>
 					<type>img-repository-upload</type>
 					<id>browseExistingImage</id>
-					<title>Browse Existing Image</title>
+					<title>Existing Images</title>
 					<interface>image</interface>
 					<properties>
 						<property>

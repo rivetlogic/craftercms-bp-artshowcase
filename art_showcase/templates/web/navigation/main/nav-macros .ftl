@@ -1,3 +1,5 @@
+<#-- Override Crafter's default navigation html tags with the following -->
+
 <#macro renderNavItem item active = false>
 <li <#if active>class="active"</#if>><a href="${navFunctions.getNavItemUrl(item)}">${navFunctions.getNavItemName(item)}</a></li>
 </#macro>

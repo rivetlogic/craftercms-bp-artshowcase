@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/teammate</content-type>	<display-template>/templates/web/teammate.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e33e</objectGroupId>
+	<objectId>e33ec78e-bc84-1dfd-87b3-b0eb96f1e96c</objectId>
+	<file-name>brock-roe.xml</file-name>
+	<folder-name/>
+	<internal-name>Brock Roe</internal-name>
+	<fullName>Brock Roe</fullName>
+	<title>Impressionism Curator</title>
+	<photo>/static-assets/images/people/team4.jpg</photo>
+	<createdDate>5/9/2017 21:37:16</createdDate>
+	<createdDate_dt>5/9/2017 21:37:16</createdDate_dt>
+	<lastModifiedDate>5/10/2017 15:53:2</lastModifiedDate>
+	<lastModifiedDate_dt>5/10/2017 15:53:2</lastModifiedDate_dt>
+	<socialLinks>	<item>	<url>https://www.facebook.com/CrafterSoftware</url>
+	<network>fa-facebook</network>
+	</item></socialLinks>
+</component>

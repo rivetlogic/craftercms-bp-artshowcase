@@ -1,5 +1,5 @@
 <content-type name="/component/hero-text" is-wcm-type="true">
-	<label>Hero Text</label>
+	<label>Component - Hero Text</label>
 	<form>/component/hero-text</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
@@ -8,4 +8,13 @@
 	<previewable>false</previewable>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
+	<paths>
+			<excludes>
+				<pattern>^/site/website/.*</pattern>
+				<pattern>^/site/components/sections/.*</pattern>
+				<pattern>^/site/components/section-headers/.*</pattern>
+				<pattern>^/site/components/services/.*</pattern>
+				<pattern>^/site/components/teammates/.*</pattern>
+			</excludes>
+	</paths>
 </content-type>
