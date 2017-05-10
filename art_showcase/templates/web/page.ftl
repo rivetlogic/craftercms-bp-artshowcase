@@ -80,6 +80,7 @@
             <div class="row">
                 <div class="main_service_area main_contactus_area">
 
+                    <#-- Google Map -->
                     <div class="row row-eq-height">
                         <div class="col-md-6 no-padding">
                             <div class="contact_us_right wow fadeInLeft">
