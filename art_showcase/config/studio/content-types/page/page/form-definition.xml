@@ -147,84 +147,6 @@
 			</fields>
 		</section>
 		<section>
-			<title>Header</title>
-			<description></description>
-			<defaultOpen>false</defaultOpen>
-			<fields>
-				<field>
-					<type>textarea</type>
-					<id>slogan</id>
-					<iceId></iceId>
-					<title>Slogan</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>cols</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>rows</name>
-							<value>5</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>100000</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>allowResize</name>
-							<value>true</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>video-picker</type>
-					<id>backgroundVideo</id>
-					<iceId></iceId>
-					<title>Background Video</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>videoManager</name>
-							<value>uploadVideo,browseExistingVideo</value>
-							<type>datasource:video</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
-			</fields>
-		</section>
-		<section>
 			<title>Section</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
@@ -430,7 +352,7 @@
 						</property>
 						<property>
 							<name>browsePath</name>
-							<value>/site/components</value>
+							<value>/site/components/sections</value>
 								<type>undefined</type>
 						</property>
 						<property>
