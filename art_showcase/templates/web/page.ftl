@@ -11,43 +11,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <!-- Raleway Google fonts  -->
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,400italic,500,100italic,700' rel='stylesheet' type='text/css'>
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="static-assets/css/normalize.css">
-    <link rel="stylesheet" href="static-assets/css/fonticons.css">
-    <link rel="stylesheet" href="static-assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="static-assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="static-assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="static-assets/css/bootstrap.css">
-    <link rel="stylesheet" href="static-assets/css/jquery.scrollindicatorbullets.css" />
+    <link rel="stylesheet" href="/static-assets/css/normalize.css">
+    <link rel="stylesheet" href="/static-assets/css/fonticons.css">
+    <link rel="stylesheet" href="/static-assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="/static-assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static-assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static-assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/static-assets/css/jquery.scrollindicatorbullets.css" />
 
     <!-- For navmenu css -->
-    <link rel="stylesheet" href="static-assets/css/navmenu.css" />
+    <link rel="stylesheet" href="/static-assets/css/navmenu.css" />
 
     <!--For Plugins external css-->
-    <link rel="stylesheet" href="static-assets/css/plugins.css" />
+    <link rel="stylesheet" href="/static-assets/css/plugins.css" />
 
     <!--Theme custom css -->
-    <link rel="stylesheet" href="static-assets/css/style.css">
+    <link rel="stylesheet" href="/static-assets/css/style.css">
 
     <!--Theme Responsive css-->
-    <link rel="stylesheet" href="static-assets/css/responsive.css" />
-
-    <!--Theme Colors css-->
-    <!--<link rel="stylesheet" href="static-assets/css/white.css">-->
-
-
+    <link rel="stylesheet" href="/static-assets/css/responsive.css" />
 
     <!--Old browser  JS-->
-    <script src="static-assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="/static-assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   </head>
   <body id="body" data-spy="scroll" data-target="#scrollspy" >
     <div class="main_figur" <@studio.componentContainerAttr target="sectionComponents" objectId=model.objectId /> >
@@ -59,9 +52,16 @@
             </header>
         </div>
 
+		<#-- Navigation menu -->
         <nav id="main-nav">
             <ul>
-              <@renderNavigation "/site/website", 1 />
+              <#list (contentModel.sectionComponents.item)![] as section>
+                <#assign sectionContentItem =  siteItemService.getSiteItem(section.key) />
+                <#if sectionContentItem.navigationName??>
+                  <#assign sectionId><@theme.internalNameToID name=sectionContentItem.navigationName /></#assign>
+                  <li><a href="#${sectionId}">${sectionContentItem.navigationName}</a></li>
+                </#if>
+              </#list>
             </ul>
             <a href="#" class="cd-close-menu">Close<span></span></a>
         </nav>
@@ -71,19 +71,7 @@
 
       <#-- Print each section -->
       <#list (contentModel.sectionComponents.item)![] as section>
-        <#-- <section id="section${section?index+1}" > -->
         <@renderComponent component=section />
-
-        <#-- <#assign foo><@debug.objectToJson object=sectionComponent /></#assign> -->
-        <#-- <pre>${foo?html}</pre> -->
-    
-        
-        <#-- <#assign sectionContentItem =  siteItemService.getSiteItem(sectionComponent.key) />
-        <#if sectionContentItem.dom.component["content-type"] == "/component/section-header" >
-        
-        <#elseif false>
-        </#if>
-        -->
       </#list>
 
       <!-- Contact Section -->
@@ -174,20 +162,20 @@
       </section><!-- End of Contactus Section -->
     </div>
 
-    <script src="static-assets//js/vendor/jquery-1.11.2.min.js"></script>
-    <script src="static-assets//js/vendor/bootstrap.min.js"></script>
+    <script src="/static-assets/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="/static-assets/js/vendor/bootstrap.min.js"></script>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-    <script src="static-assets/js/jquery.waypoints.min.js"></script>
-    <script src="static-assets/js/jquery.scrollindicatorbullets.min.js"></script>
-    <script src="static-assets//js/jquery.easing.1.3.js"></script>
-    <script src="static-assets/js/materialize.js"></script>
-    <script src="static-assets//js/jquery.magnific-popup.js"></script>
-    <script src="static-assets//js/freewall.js"></script>
+    <script src="/static-assets/js/jquery.waypoints.min.js"></script>
+    <script src="/static-assets/js/jquery.scrollindicatorbullets.min.js"></script>
+    <script src="/static-assets/js/jquery.easing.1.3.js"></script>
+    <script src="/static-assets/js/materialize.js"></script>
+    <script src="/static-assets/js/jquery.magnific-popup.js"></script>
+    <script src="/static-assets/js/freewall.js"></script>
 
     <script src="http://maps.google.com/maps/api/js"></script>
-    <script src="static-assets//js/gmaps.min.js"></script>
+    <script src="/static-assets/js/gmaps.min.js"></script>
     <script>
         var map = new GMaps({
             el: '.ourmap',
@@ -210,8 +198,8 @@
         });
     </script>
 
-    <script src="static-assets//js/plugins.js"></script>
-    <script src="static-assets//js/main.js"></script>
+    <script src="/static-assets/js/plugins.js"></script>
+    <script src="/static-assets/js/main.js"></script>
     <@studio.toolSupport/>	
   </body>
 </html>
