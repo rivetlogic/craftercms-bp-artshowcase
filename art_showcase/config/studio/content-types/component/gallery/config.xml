@@ -14,6 +14,7 @@
 				<pattern>^/site/components/sections/.*</pattern>
 				<pattern>^/site/components/section-headers/.*</pattern>
 				<pattern>^/site/components/services/.*</pattern>
+				<pattern>^/site/components/teammates/.*</pattern>
 			</excludes>
 	</paths>
 </content-type>

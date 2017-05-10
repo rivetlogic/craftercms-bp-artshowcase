@@ -8,4 +8,13 @@
 	<previewable>false</previewable>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
+	<paths>
+			<excludes>
+				<pattern>^/site/website/.*</pattern>
+				<pattern>^/site/components/sections/.*</pattern>
+				<pattern>^/site/components/section-headers/.*</pattern>
+				<pattern>^/site/components/services/.*</pattern>
+				<pattern>^/site/components/teammates/.*</pattern>
+			</excludes>
+	</paths>
 </content-type>
