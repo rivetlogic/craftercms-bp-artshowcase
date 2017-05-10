@@ -1,5 +1,5 @@
 <content-type name="/component/feature-list" is-wcm-type="true">
-	<label>Feature List</label>
+	<label>Component - Feature List</label>
 	<form>/component/feature-list</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>

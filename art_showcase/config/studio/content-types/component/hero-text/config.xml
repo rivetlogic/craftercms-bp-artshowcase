@@ -1,5 +1,5 @@
 <content-type name="/component/hero-text" is-wcm-type="true">
-	<label>Hero Text</label>
+	<label>Component - Hero Text</label>
 	<form>/component/hero-text</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>

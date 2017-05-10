@@ -1,5 +1,5 @@
 <form>
-	<title>Section Header</title>
+	<title>Component - Section Header</title>
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/section-header</content-type>

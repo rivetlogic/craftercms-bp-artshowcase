@@ -1,5 +1,5 @@
 <content-type name="/component/gallery" is-wcm-type="true">
-	<label>Gallery</label>
+	<label>Component - Gallery</label>
 	<form>/component/gallery</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
