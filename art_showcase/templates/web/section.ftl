@@ -14,7 +14,7 @@
   <div class="container-fluid <#if contentModel.backgroundVideo?? && (contentModel.backgroundVideo?length>0)>hasVideoBackground</#if>">
     <div class="row">
       <div class="col-md-12 ">
-        <div class="main_area p-t-3" <@studio.componentContainerAttr target="components" objectId=model.objectId /> >
+        <div class="main_area p-t-3" >
           <#if (contentModel.components.item)?? >
             <#list contentModel.components.item as module>
               <@renderComponent component=module />
