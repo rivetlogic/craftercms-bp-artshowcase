@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="/static-assets/css/navmenu.css" />
 
     <!--For Plugins external css-->
+    <link rel="stylesheet" href="/static-assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="/static-assets/css/plugins.css" />
 
     <!--Theme custom css -->
@@ -178,10 +179,23 @@
     <script src="http://maps.google.com/maps/api/js"></script>
     <script src="/static-assets/js/gmaps.min.js"></script>
     <script>
+    	var locationLatitude = ${contentModel.locationLatitude!0};
+        var locationLongitude = ${contentModel.locationLongitude!0};
+        var alertMsg = "";
+        if( !(-85<locationLatitude && locationLatitude<85) ){
+            alertMsg += "Invalid latitude. Must be between -85 and 85.\n";
+        }
+        if( !(-180<locationLongitude && locationLongitude<180) ){
+            alertMsg += "Invalid longitude. Must be between -180 and 180.\n";
+        }
+        if( alertMsg ){
+            alert( alertMsg );
+        }
+        
         var map = new GMaps({
             el: '.ourmap',
-            lat: ${contentModel.locationLatitude!0},
-            lng: ${contentModel.locationLongitude!0},
+            lat: locationLatitude,
+            lng: locationLongitude,
             scrollwheel: false,
             zoom: 15,
             zoomControl: true,
@@ -200,6 +214,7 @@
     </script>
 
     <script src="/static-assets/js/plugins.js"></script>
+    <script src="/static-assets/js/vendor/owl.carousel.min.js"></script>
     <script src="/static-assets/js/main.js"></script>
     <@studio.toolSupport/>	
   </body>

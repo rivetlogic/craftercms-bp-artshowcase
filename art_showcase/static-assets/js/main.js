@@ -114,6 +114,9 @@ jQuery(document).ready(function ($) {
     /*---------------------------------------------*
      * Menu Section
      ---------------------------------------------*/
+     
+    // Add contactus to menu
+    $('#main-nav ul').append('<li><a href="#contactus">'+$('#contactus :header').first().text()+'</a></li>')
 
     $('.cd-menu-trigger').on('click', function (event) {
         event.preventDefault();
@@ -218,7 +221,7 @@ $(document).ready(function(){
  */
 $(document).ready(function() {
     var wall = new Freewall(".gallery");
-    var resizeFunction = wall.fitZone.bind(wall);
+    var resizeFunction = wall.fitWidth.bind(wall);
     wall.reset({
         selector: '.brick',
         animate: true,

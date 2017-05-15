@@ -211,13 +211,31 @@
 					<id>mapCoordinatesInstructions</id>
 					<iceId></iceId>
 					<title>Map Coordinates Instructions</title>
-					<description>Get</description>
+					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
 							<name>text</name>
 							<value>To get a place's coordinates, you can right click any point in Google Maps and select &quot;What's here?&quot;</value>
+							<type>string</type>
+						</property>
+					</properties>
+					<constraints>
+					</constraints>
+				</field>
+				<field>
+					<type>label</type>
+					<id>validLatitude</id>
+					<iceId></iceId>
+					<title>Valid Latitude</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>text</name>
+							<value>Valid latitude is between -85 and 85</value>
 							<type>string</type>
 						</property>
 					</properties>
@@ -265,6 +283,24 @@
 							<value><![CDATA[-?[0-9]+(\.[0-9]+)?]]></value>
 							<type>string</type>
 						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>label</type>
+					<id>validLongitude</id>
+					<iceId></iceId>
+					<title>Valid Longitude</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>text</name>
+							<value>Valid longitude is between -180 and 180</value>
+							<type>string</type>
+						</property>
+					</properties>
+					<constraints>
 					</constraints>
 				</field>
 				<field>
