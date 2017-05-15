@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="/static-assets/css/navmenu.css" />
 
     <!--For Plugins external css-->
+    <link rel="stylesheet" href="/static-assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="/static-assets/css/plugins.css" />
 
     <!--Theme custom css -->
@@ -213,6 +214,7 @@
     </script>
 
     <script src="/static-assets/js/plugins.js"></script>
+    <script src="/static-assets/js/vendor/owl.carousel.min.js"></script>
     <script src="/static-assets/js/main.js"></script>
     <@studio.toolSupport/>	
   </body>
