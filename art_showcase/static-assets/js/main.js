@@ -114,6 +114,9 @@ jQuery(document).ready(function ($) {
     /*---------------------------------------------*
      * Menu Section
      ---------------------------------------------*/
+     
+    // Add contactus to menu
+    $('#main-nav ul').append('<li><a href="#contactus">'+$('#contactus :header').first().text()+'</a></li>')
 
     $('.cd-menu-trigger').on('click', function (event) {
         event.preventDefault();
