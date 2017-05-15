@@ -221,7 +221,7 @@ $(document).ready(function(){
  */
 $(document).ready(function() {
     var wall = new Freewall(".gallery");
-    var resizeFunction = wall.fitZone.bind(wall);
+    var resizeFunction = wall.fitWidth.bind(wall);
     wall.reset({
         selector: '.brick',
         animate: true,
