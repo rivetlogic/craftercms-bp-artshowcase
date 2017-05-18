@@ -525,6 +525,7 @@ section:not(.contactus) > .container-fluid {
 .main_team_content {
     margin-bottom: 80px;
     display: inline-block;
+    width:100%;
 }
 
 .single_team:hover .team_social_area {
