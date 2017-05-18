@@ -205,14 +205,31 @@ jQuery(document).on('click', '.navbar-collapse.in', function (e) {
 $(document).ready(function(){
     $("#contactSubmit").click(function(e){
         e.preventDefault();
-        var frm = $("#contactFormId");
-        var data = frm.serializeArray();
-        data = data.reduce(function(m,e){m[e.name] = e.value; return m;},{});
-        $('#contactFormId')[0].reset();
-        $.ajax({type: "POST",
-        "url": "/api/1/services/mail.json",
-        "data": data,
-        });
+        var thisButton = $(this);
+
+        if(!thisButton.hasClass("loading") && !thisButton.hasClass("done")){
+            var frm = $("#contactFormId");
+            if(false){ //if (!frm[0].checkValidity()) {
+                // If the form is invalid, submit it. The form won't actually submit;
+                // this will just cause the browser to display the native HTML5 error messages.
+                frm.find('input[type=submit]').click()
+            } else {
+                thisButton.addClass('loading');
+                var data = frm.serializeArray();
+                data = data.reduce(function (m, e) { m[e.name] = e.value; return m; }, {});
+                $.ajax({
+                    type: "POST",
+                    "url": "/api/1/services/mail.json",
+                    "data": data,
+                }).done(function () {
+                    $('#contactFormId')[0].reset();
+                    thisButton.removeClass('loading hidden').addClass('done');
+                }).fail(function (error) {
+                    thisButton.removeClass('loading hidden').addClass('error');
+                    console.error(error);
+                });
+            }
+        }
     });
 });
 

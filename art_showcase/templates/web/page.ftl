@@ -129,7 +129,8 @@
                                         <input type="hidden" name="contextURL" value="/${contentModel['folder-name']}" >
                                         <div class="row">
                                             <div class="m-b-2 m-t-2">
-                                                <input type="submit" value="Send message" id="contactSubmit">
+                                                <button id="contactSubmit" class="button">Send message</button>
+                                                <input type="submit" value="Send message" style="display:none">
                                             </div>
                                         </div>
                                     </form>
