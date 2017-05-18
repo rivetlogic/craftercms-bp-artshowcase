@@ -139,7 +139,7 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[]]></value>
+							<value><![CDATA[true]]></value>
 							<type>boolean</type>
 						</constraint>
 						<constraint>
@@ -170,7 +170,7 @@
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>100000</value>
+							<value>600</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -187,7 +187,7 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[]]></value>
+							<value><![CDATA[true]]></value>
 							<type>boolean</type>
 						</constraint>
 					</constraints>
