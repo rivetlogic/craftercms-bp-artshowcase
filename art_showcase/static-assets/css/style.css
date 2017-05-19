@@ -937,6 +937,9 @@ section .testimonial p {
   transition: width 0.5s;
 }
 /** ERROR **/
+.main_contactus_area button.error {
+  visibility: hidden;
+}
 .main_contactus_area button.error:after{
   visibility: visible;
   content: "\f00d";
@@ -948,7 +951,9 @@ section .testimonial p {
   background: #b73931;
 }
 
-.main_contactus_area button.loading, .main_contactus_area button.done {
+.main_contactus_area button.loading,
+.main_contactus_area button.done,
+.main_contactus_area button.error {
   cursor: default;
 }
 

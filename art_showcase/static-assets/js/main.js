@@ -209,7 +209,7 @@ $(document).ready(function(){
 
         if(!thisButton.hasClass("loading") && !thisButton.hasClass("done")){
             var frm = $("#contactFormId");
-            if(false){ //if (!frm[0].checkValidity()) {
+            if (!frm[0].checkValidity()) {
                 // If the form is invalid, submit it. The form won't actually submit;
                 // this will just cause the browser to display the native HTML5 error messages.
                 frm.find('input[type=submit]').click()
