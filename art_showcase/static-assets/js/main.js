@@ -227,6 +227,10 @@ $(document).ready(function(){
                 }).fail(function (error) {
                     thisButton.removeClass('loading hidden').addClass('error');
                     console.error(error);
+                }).always(function(){
+                    setTimeout(function(){
+                        thisButton.removeClass('done error');
+                    }, 2000);
                 });
             }
         }
