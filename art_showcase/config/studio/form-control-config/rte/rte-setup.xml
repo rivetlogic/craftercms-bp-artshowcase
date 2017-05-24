@@ -6,20 +6,14 @@
 			<loadFromPreview>true</loadFromPreview>
 			<url>/static-assets/css/style.css</url>         
          </link>
-         
          <link>
-         	<appliesToChannel>iphonev,iphoneh</appliesToChannel>
 			<loadFromPreview>true</loadFromPreview>
-			<url>/static-assets/mobile/css/iphone.css</url>         
-         </link>
-         <link>
-         	<appliesToChannel>iphonev,iphoneh</appliesToChannel>
 			<loadFromPreview>true</loadFromPreview>
-			<url>/static-assets/mobile/css/libs/jquery.mobile-1.0.min.css</url>         
+			<url>/static-assets/css/responsive.css</url>         
          </link>
      </rteStylesheets>
 	 
-    <toolbarItems1>formatselect,|,bold,italic,underline,strikethrough,|,sub,sup,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,code,|,undo,redo</toolbarItems1>
+    <toolbarItems1>formatselect,|,bold,italic,underline,strikethrough,|,sub,sup,charmap,|,outdent,indent,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,bullist,numlist,|,managedImage,link,unlink,anchor,|,edithtml,|,undo,redo</toolbarItems1>
 	<toolbarItems2></toolbarItems2>
 	<toolbarItems3></toolbarItems3>
 	<toolbarItems4></toolbarItems4>
@@ -57,7 +51,8 @@
 	</rteWidgets>    
 	
     <rteModules>
-        <module>insert-image</module>		
+        <module>insert-image</module>
+        <module>edit-html</module>
         <module>channel</module>        
 	</rteModules>
     
