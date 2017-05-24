@@ -265,6 +265,6 @@ $(document).ready(function() {
 /**
  * Scroll Indicator
  */
-$('section').scrollIndicatorBullets({
-    titleSelector: 'h1,h2,h3'
-});
+// $('section').scrollIndicatorBullets({
+//     titleSelector: 'h1,h2,h3'
+// });
