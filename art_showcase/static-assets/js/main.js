@@ -103,14 +103,6 @@ jQuery(document).ready(function ($) {
     });
 
 
-    jQuery('.gallery-img').magnificPopup({
-        type: 'image',
-        gallery: {
-            enabled: true
-        },
-    });
-
-
     /*---------------------------------------------*
      * Menu Section
      ---------------------------------------------*/
@@ -243,6 +235,7 @@ $(document).ready(function(){
 $(document).ready(function() {
     var wall = new Freewall(".gallery");
     var resizeFunction = wall.fitWidth.bind(wall);
+    window.galleryOnResizeFunction = resizeFunction;
     wall.reset({
         selector: '.brick',
         animate: true,
@@ -260,11 +253,40 @@ $(document).ready(function() {
     });
     resizeFunction();
     $(window).trigger("resize");
+
+    $('.gallery .image_preload_list').each(function(){ // For each image list in a gallery
+        $(this).find('img').each(function(){
+            var imageObj = new Image();
+            imageObj.src = $(this)[0].src
+            imageObj.onload = function(){
+                addImageToGallery(wall, $(imageObj)
+                    .wrap('<a href="'+imageObj.src+'" class="gallery-img"></a>')
+                    .parent()
+                );
+            }
+        });
+    });
 });
+
+/**
+ * 
+ * @param {*} imgAnchor Receives the jQuery wrapped anchor element surrounding an image
+ */
+function addImageToGallery(containerWall, imgAnchor) {
+    var brick = imgAnchor.wrap('<div class="brick"></div>').parent();
+    containerWall.appendBlock(brick);
+    containerWall.refresh();
+    jQuery(imgAnchor).magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: true
+        },
+    });
+}
 
 /**
  * Scroll Indicator
  */
-$('section').scrollIndicatorBullets({
-    titleSelector: 'h1,h2,h3'
-});
+// $('section').scrollIndicatorBullets({
+//     titleSelector: 'h1,h2,h3'
+// });

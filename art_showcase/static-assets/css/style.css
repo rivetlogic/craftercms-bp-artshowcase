@@ -869,6 +869,10 @@ section .testimonial p {
     padding:0;
 }
 
+.image_preload_list{
+    display: none;
+}
+
 #scroll-indicator-bullets ul li .bullet-item-link .circle {
     box-shadow: 1px 0 white, 0 1px white, -1px 0 white, 0 -1px white;
 }
