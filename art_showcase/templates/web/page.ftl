@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="/static-assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static-assets/css/bootstrap.css">
     <link rel="stylesheet" href="/static-assets/css/jquery.scrollindicatorbullets.css" />
+    <link rel="stylesheet" href="/static-assets/css/kendo.common.min.css" />
+    <link rel="stylesheet" href="/static-assets/css/kendo.default.min.css" />
 
     <!-- For navmenu css -->
     <link rel="stylesheet" href="/static-assets/css/navmenu.css" />
@@ -68,7 +70,7 @@
         </nav>
       </div>
 
-      
+
 
       <#-- Print each section -->
       <#list (contentModel.sectionComponents.item)![] as section>
@@ -130,7 +132,7 @@
                                         <div class="row">
                                             <div class="m-b-2 m-t-2">
                                                 <button id="contactSubmit" class="button">Send message</button>
-                                                <input type="submit" value="Send message" style="display:none">
+                                                <input type="submit" value="Send message" style="display:none" />
                                             </div>
                                         </div>
                                     </form>
@@ -146,7 +148,7 @@
                                         </div>
 
                                         <div class="col-md-8">
-                                            
+
                                         </div>
                                         <div class="col-md-1 no-padding">
                                             <div class="scrollup center">
@@ -176,9 +178,11 @@
     <script src="/static-assets/js/materialize.js"></script>
     <script src="/static-assets/js/jquery.magnific-popup.js"></script>
     <script src="/static-assets/js/freewall.js"></script>
+    <script src="/static-assets/js/kendo.ui.core.min.js"></script>
 
     <script src="http://maps.google.com/maps/api/js"></script>
     <script src="/static-assets/js/gmaps.min.js"></script>
+
     <script>
     	var locationLatitude = ${contentModel.locationLatitude!0};
         var locationLongitude = ${contentModel.locationLongitude!0};
@@ -192,7 +196,7 @@
         if( alertMsg ){
             alert( alertMsg );
         }
-        
+
         var map = new GMaps({
             el: '.ourmap',
             lat: locationLatitude,
@@ -217,6 +221,6 @@
     <script src="/static-assets/js/plugins.js"></script>
     <script src="/static-assets/js/vendor/owl.carousel.min.js"></script>
     <script src="/static-assets/js/main.js"></script>
-    <@studio.toolSupport/>	
+    <@studio.toolSupport/>
   </body>
 </html>
