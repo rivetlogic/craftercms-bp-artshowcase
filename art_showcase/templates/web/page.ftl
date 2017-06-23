@@ -22,9 +22,9 @@
     <link rel="stylesheet" href="/static-assets/css/normalize.css">
     <link rel="stylesheet" href="/static-assets/css/fonticons.css">
     <link rel="stylesheet" href="/static-assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="/static-assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="/static-assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static-assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/static-assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="/static-assets/css/jquery.scrollindicatorbullets.css" />
     <link rel="stylesheet" href="/static-assets/css/kendo.common.min.css" />
     <link rel="stylesheet" href="/static-assets/css/kendo.default.min.css" />
@@ -131,7 +131,7 @@
                                         <input type="hidden" name="contextURL" value="/${contentModel['folder-name']}" >
                                         <div class="row">
                                             <div class="m-b-2 m-t-2">
-                                                <button id="contactSubmit" class="button">Send message</button>
+                                                <button id="contactSubmit" >Send message</button>
                                                 <input type="submit" value="Send message" style="display:none" />
                                             </div>
                                         </div>
