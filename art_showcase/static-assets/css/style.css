@@ -897,6 +897,9 @@ section .testimonial p {
     box-shadow: 1px 0 white, 0 1px white, -1px 0 white, 0 -1px white;
 }
 
+.gallery .gallery-image{margin-bottom: 2em;display: inline-block;}
+.gallery .gallery-image img{width: 100%;}
+
 /***
  * Loading Button
  */

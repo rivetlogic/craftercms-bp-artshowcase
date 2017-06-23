@@ -1,14 +1,11 @@
 <div class="container">
-  <div class="main_portfolio_content gallery">
-    <#list contentModel.gallery.item as art>
-      <div class="brick">
-        
-      </div>
-    </#list>
-    <div class="image_preload_list">
-      <#list contentModel.gallery.item as art>
-        <img src="${art.photo}" width='auto'/>
+  <#if contentModel.gallery?? && contentModel.gallery.item??>
+      <#list contentModel.gallery.item as image>
+          <div class="col-sm-4 wowload fadeInUp">
+              <a href="${image.photo!""}" class="gallery-image" data-gallery>
+                  <img src="${image.photo!""}" class="img-responsive">
+              </a>
+          </div>
       </#list>
-    </div>
-  </div>
+  </#if>
 </div>

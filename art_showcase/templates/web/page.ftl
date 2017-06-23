@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="/static-assets/css/jquery.scrollindicatorbullets.css" />
     <link rel="stylesheet" href="/static-assets/css/kendo.common.min.css" />
     <link rel="stylesheet" href="/static-assets/css/kendo.default.min.css" />
+    <link rel="stylesheet" href="/static-assets/css/blueimp-gallery.min.css">
 
     <!-- For navmenu css -->
     <link rel="stylesheet" href="/static-assets/css/navmenu.css" />
@@ -167,6 +168,18 @@
       </section><!-- End of Contactus Section -->
     </div>
 
+    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+        <!-- The container for the modal slides -->
+        <div class="slides"></div>
+        <!-- Controls for the borderless lightbox -->
+        <h3 class="title">title</h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    </div>
+
     <script src="/static-assets/js/vendor/jquery-1.11.2.min.js"></script>
     <script src="/static-assets/js/vendor/bootstrap.min.js"></script>
 
@@ -221,6 +234,7 @@
     <script src="/static-assets/js/plugins.js"></script>
     <script src="/static-assets/js/vendor/owl.carousel.min.js"></script>
     <script src="/static-assets/js/main.js"></script>
+    <script src="/static-assets/js/jquery.blueimp-gallery.min.js"></script>
     <@studio.toolSupport/>
   </body>
 </html>
