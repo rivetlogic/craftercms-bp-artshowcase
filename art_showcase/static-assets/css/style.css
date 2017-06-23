@@ -897,16 +897,27 @@ section .testimonial p {
     box-shadow: 1px 0 white, 0 1px white, -1px 0 white, 0 -1px white;
 }
 
+.gallery .gallery-image{margin-bottom: 2em;display: inline-block;}
+.gallery .gallery-image img{width: 100%;}
+
 /***
  * Loading Button
  */
 
 .main_contactus_area button.loading, .main_contactus_area button.done {
-    visibility: hidden;
+    visibility: visible;
 }
 .main_contact_area button.hidden:after{
     visibility: visible;
 }
+
+.main_contactus_area button.loading {
+    color: #000;
+    background: #000;
+    border-color: #000;
+}
+
+
 .main_contactus_area button:after {
   visibility: hidden;
   font-family: FontAwesome;
@@ -930,9 +941,10 @@ section .testimonial p {
   visibility: visible;
   animation: loader 1s infinite linear;
 }
+
 /** Done **/
 .main_contactus_area button.done {
-  visibility: hidden;
+  visibility: visible;
 }
 .main_contactus_area button.done:before {
   visibility: visible;
@@ -963,7 +975,7 @@ section .testimonial p {
 }
 /** ERROR **/
 .main_contactus_area button.error {
-  visibility: hidden;
+  visibility: visible;
 }
 .main_contactus_area button.error:after{
   visibility: visible;

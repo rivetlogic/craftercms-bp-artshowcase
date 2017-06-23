@@ -22,12 +22,13 @@
     <link rel="stylesheet" href="/static-assets/css/normalize.css">
     <link rel="stylesheet" href="/static-assets/css/fonticons.css">
     <link rel="stylesheet" href="/static-assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="/static-assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="/static-assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static-assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/static-assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="/static-assets/css/jquery.scrollindicatorbullets.css" />
     <link rel="stylesheet" href="/static-assets/css/kendo.common.min.css" />
     <link rel="stylesheet" href="/static-assets/css/kendo.default.min.css" />
+    <link rel="stylesheet" href="/static-assets/css/blueimp-gallery.min.css">
 
     <!-- For navmenu css -->
     <link rel="stylesheet" href="/static-assets/css/navmenu.css" />
@@ -131,7 +132,7 @@
                                         <input type="hidden" name="contextURL" value="/${contentModel['folder-name']}" >
                                         <div class="row">
                                             <div class="m-b-2 m-t-2">
-                                                <button id="contactSubmit" class="button">Send message</button>
+                                                <button id="contactSubmit" >Send message</button>
                                                 <input type="submit" value="Send message" style="display:none" />
                                             </div>
                                         </div>
@@ -165,6 +166,18 @@
             </div><!-- End of row -->
         </div><!-- End of container -->
       </section><!-- End of Contactus Section -->
+    </div>
+
+    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+        <!-- The container for the modal slides -->
+        <div class="slides"></div>
+        <!-- Controls for the borderless lightbox -->
+        <h3 class="title">title</h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <!-- The modal dialog, which will be used to wrap the lightbox content -->
     </div>
 
     <script src="/static-assets/js/vendor/jquery-1.11.2.min.js"></script>
@@ -221,6 +234,7 @@
     <script src="/static-assets/js/plugins.js"></script>
     <script src="/static-assets/js/vendor/owl.carousel.min.js"></script>
     <script src="/static-assets/js/main.js"></script>
+    <script src="/static-assets/js/jquery.blueimp-gallery.min.js"></script>
     <@studio.toolSupport/>
   </body>
 </html>
