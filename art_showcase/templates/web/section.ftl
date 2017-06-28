@@ -5,7 +5,7 @@
 <section class="scroll-section" <#if (contentModel.navigationName)??>id="${sectionId}"</#if> <@studio.componentAttr path=contentModel.storeUrl /> >
   <#if contentModel.backgroundVideo?? && (contentModel.backgroundVideo?length>0) >
     <div class="fullscreen-bg">
-        <video loop muted autoplay>
+        <video playsinline autoplay muted loop>
             <source src="${contentModel.backgroundVideo}" type="video/mp4">
         </video>
     </div>
