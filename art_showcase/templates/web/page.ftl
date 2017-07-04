@@ -125,7 +125,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <textarea class="form-control" name="message" rows="8" placeholder="Your Message"></textarea>
+                                                    <textarea class="form-control" name="message" rows="8" placeholder="Your Message" required=""></textarea>
                                                 </div>
                                             </div>
                                         </div>
