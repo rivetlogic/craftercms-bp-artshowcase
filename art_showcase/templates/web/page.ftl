@@ -214,6 +214,7 @@
             el: '.ourmap',
             lat: locationLatitude,
             lng: locationLongitude,
+            gestureHandling: 'none',
             scrollwheel: false,
             zoom: 15,
             zoomControl: true,
