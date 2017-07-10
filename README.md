@@ -2,6 +2,11 @@
 
 Art Showcase is a stylish single page Crafter 3 blueprint with video backgrounds. It's based on the Exigo HTML theme by [Shravan Hotha](https://dribbble.com/shots/2714774-Exigo-PSD-Freebie) and [Ataur Rahman](https://bootstrapthemes.co/author/xpeedstudio/) available here https://bootstrapthemes.co/item/exigo-free-html5-creative-portfolio-template/
 
+# Contact Us
+Contact Us sends no mails out of the box. You can specify what to do with the received form data by editing the controllers at
+
+  - /scripts/rest/mail.post.groovy
+
 # Configuring e-mail
 
 To configure the mail server, you need to modify the MailHelper groovy class. It resides in `/scripts/utils/MailHelper.groovy` and makes use of [Spring's JavaMailSender](http://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/mail/javamail/JavaMailSender.html), which is configured using JavaMail's properties:
