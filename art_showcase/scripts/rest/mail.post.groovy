@@ -22,10 +22,13 @@ if (!fromEmail) {
     throw new HttpStatusCodeException(400, "Bad request: missing message")
 }
 
-def mailHelper = new MailHelper(siteContext.freeMarkerConfig.configuration);
-mailHelper.sendEmail(fromEmail, toMails, "${name} contacted you", "${name} ${phone} \n ${message}");
+// def mailHelper = new MailHelper(siteContext.freeMarkerConfig.configuration);
+// mailHelper.sendEmail(fromEmail, toMails, "${name} contacted you", "${name} ${phone} \n ${message}");
 
-return [:];
+println "Processing Contact Us Request with values:"
+println params
+
+return [success: true];
 
 def getToMails(contextSite){
     def toMails = contextSite.get('contactEmails/item/email');
