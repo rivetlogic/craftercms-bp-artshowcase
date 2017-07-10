@@ -538,7 +538,8 @@ section:not(.contactus) > .container-fluid {
 }
 
 .single_team:hover .single_team_text {
-    display: none;
+	visibility: visible;
+/*    display: none; */
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
