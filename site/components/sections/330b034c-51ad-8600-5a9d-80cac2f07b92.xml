@@ -21,8 +21,8 @@
 	<include>/site/components/services/private-exhibitions.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></components>
-	<createdDate>5/2/2017 17:49:56</createdDate>
-	<createdDate_dt>5/2/2017 17:49:56</createdDate_dt>
-	<lastModifiedDate>5/8/2017 16:9:55</lastModifiedDate>
-	<lastModifiedDate_dt>5/8/2017 16:9:55</lastModifiedDate_dt>
+	<createdDate>2017-5-2T17:49:56.000Z</createdDate>
+	<createdDate_dt>2017-5-2T17:49:56.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-8T16:9:55.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-8T16:9:55.000Z</lastModifiedDate_dt>
 </component>

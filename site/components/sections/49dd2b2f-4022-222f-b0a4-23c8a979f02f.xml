@@ -13,8 +13,8 @@
 	<include>/site/components/intro-hero.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></components>
-	<createdDate>5/8/2017 19:48:20</createdDate>
-	<createdDate_dt>5/8/2017 19:48:20</createdDate_dt>
-	<lastModifiedDate>5/9/2017 19:6:23</lastModifiedDate>
-	<lastModifiedDate_dt>5/9/2017 19:6:23</lastModifiedDate_dt>
+	<createdDate>2017-5-8T19:48:20.000Z</createdDate>
+	<createdDate_dt>2017-5-8T19:48:20.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-9T19:6:23.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-9T19:6:23.000Z</lastModifiedDate_dt>
 </component>

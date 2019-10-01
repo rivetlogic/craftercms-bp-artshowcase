@@ -16,9 +16,9 @@
 	<include>/site/components/gallery.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></components>
-	<createdDate>4/27/2017 19:18:34</createdDate>
-	<createdDate_dt>4/27/2017 19:18:34</createdDate_dt>
-	<lastModifiedDate>5/9/2017 17:56:56</lastModifiedDate>
-	<lastModifiedDate_dt>5/9/2017 17:56:56</lastModifiedDate_dt>
+	<createdDate>2017-4-27T19:18:34.000Z</createdDate>
+	<createdDate_dt>2017-4-27T19:18:34.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-9T17:56:56.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-9T17:56:56.000Z</lastModifiedDate_dt>
 	<navigationName>Gallery</navigationName>
 </component>

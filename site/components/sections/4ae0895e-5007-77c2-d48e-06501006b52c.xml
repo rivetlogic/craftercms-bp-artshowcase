@@ -17,8 +17,8 @@
 	<include>/site/components/testimonials.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></components>
-	<createdDate>5/3/2017 19:59:10</createdDate>
-	<createdDate_dt>5/3/2017 19:59:10</createdDate_dt>
-	<lastModifiedDate>5/8/2017 16:10:1</lastModifiedDate>
-	<lastModifiedDate_dt>5/8/2017 16:10:1</lastModifiedDate_dt>
+	<createdDate>2017-5-3T19:59:10.000Z</createdDate>
+	<createdDate_dt>2017-5-3T19:59:10.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-8T16:10:1.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-8T16:10:1.000Z</lastModifiedDate_dt>
 </component>
