@@ -1,8 +1,8 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio/>
 <#import "/templates/web/common/macros.ftl" as theme />
 
-<#assign sectionId><@theme.internalNameToID name=contentModel.navigationName /></#assign>
-<section class="scroll-section" <#if (contentModel.navigationName)??>id="${sectionId}"</#if> <@studio.componentAttr path=contentModel.storeUrl /> >
+<#assign sectionId><@theme.internalNameToID name=contentModel.navigationName_t /></#assign>
+<section class="scroll-section" <#if (contentModel.navigationName_t)??>id="${sectionId}"</#if> <@studio.componentAttr path=contentModel.storeUrl /> >
   <#if contentModel.backgroundVideo?? && (contentModel.backgroundVideo?length>0) >
     <div class="fullscreen-bg">
         <video playsinline autoplay muted loop>

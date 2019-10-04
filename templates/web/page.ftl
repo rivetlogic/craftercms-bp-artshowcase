@@ -61,9 +61,9 @@
             <ul>
               <#list (contentModel.sectionComponents.item)![] as section>
                 <#assign sectionContentItem =  siteItemService.getSiteItem(section.key) />
-                <#if sectionContentItem.navigationName??>
-                  <#assign sectionId><@theme.internalNameToID name=sectionContentItem.navigationName /></#assign>
-                  <li><a href="#${sectionId}">${sectionContentItem.navigationName}</a></li>
+                <#if sectionContentItem.navigationName_t??>
+                  <#assign sectionId><@theme.internalNameToID name=sectionContentItem.navigationName_t /></#assign>
+                  <li><a href="#${sectionId}">${sectionContentItem.navigationName_t}</a></li>
                 </#if>
               </#list>
             </ul>

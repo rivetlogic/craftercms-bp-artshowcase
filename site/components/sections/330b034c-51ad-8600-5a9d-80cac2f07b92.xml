@@ -6,7 +6,7 @@
 	<objectId>330b034c-51ad-8600-5a9d-80cac2f07b92</objectId>
 	<file-name>330b034c-51ad-8600-5a9d-80cac2f07b92.xml</file-name>
 	<internal-name>Our Services Section</internal-name>
-	<navigationName>Our Services</navigationName>
+	<navigationName_t>Our Services</navigationName_t>
 	<backgroundVideo/>
 	<components>	<item>	<key>/site/components/section-headers/our-services.xml</key>
 	<value>Our Services</value>

@@ -72,7 +72,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>navigationName</id>
+               <id>navigationName_t</id>
                <iceId/>
                <title>Navigation Name</title>
                <description/>

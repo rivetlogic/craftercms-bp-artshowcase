@@ -20,5 +20,5 @@
 	<include>/site/components/about-highlights.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></components>
-	<navigationName>About Us</navigationName>
+	<navigationName_t>About Us</navigationName_t>
 </component>

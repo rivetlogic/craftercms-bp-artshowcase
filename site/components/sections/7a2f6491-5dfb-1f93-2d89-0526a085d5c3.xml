@@ -6,7 +6,7 @@
 	<objectId>7a2f6491-5dfb-1f93-2d89-0526a085d5c3</objectId>
 	<file-name>7a2f6491-5dfb-1f93-2d89-0526a085d5c3.xml</file-name>
 	<internal-name>Curators Section</internal-name>
-	<navigationName>Curators</navigationName>
+	<navigationName_t>Curators</navigationName_t>
 	<backgroundVideo/>
 	<components>	<item>	<value>Curators Header</value>
 	<key>/site/components/section-headers/curators.xml</key>
