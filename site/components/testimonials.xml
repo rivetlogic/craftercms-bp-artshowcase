@@ -7,13 +7,13 @@
 	<file-name>testimonials.xml</file-name>
 	<folder-name/>
 	<internal-name>Testimonials Carousel</internal-name>
-	<testimonials>	<item>	<reviewer_t>Jane Roe</reviewer_t>
+	<testimonials_o>	<item>	<reviewer_t>Jane Roe</reviewer_t>
 	<testimonial_t>Their framing was both fast and robust. My child's painting looks opulent!</testimonial_t>
 	</item>	<item>	<reviewer_t>John Doe</reviewer_t>
 	<testimonial_t>My private exhibition was a huge success. They feature a refined and elegant environment.</testimonial_t>
 	</item>	<item>	<reviewer_t>Mary Sue</reviewer_t>
 	<testimonial_t>I really liked this place.</testimonial_t>
-	</item></testimonials>
+	</item></testimonials_o>
 	<createdDate>2017-5-4T17:41:11.000Z</createdDate>
 	<createdDate_dt>2017-5-4T17:41:11.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-4T17:42:3.000Z</lastModifiedDate>

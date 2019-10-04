@@ -95,7 +95,7 @@
          <fields>
             <field>
                <type>repeat</type>
-               <id>testimonials</id>
+               <id>testimonials_o</id>
                <iceId/>
                <title>Testimonials</title>
                <description/>
