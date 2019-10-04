@@ -4,7 +4,7 @@
 	<div class="carousel owl-carousel" >
     	<#if (contentModel.testimonials_o.item)?? >
         <#list contentModel.testimonials_o.item as testimonial>
-          <div class="testimonial_t">
+          <div class="testimonial">
             <h3 class="">${testimonial.testimonial_t}</h3>  
             <p>- ${testimonial.reviewer_t}</p>
           </div>
