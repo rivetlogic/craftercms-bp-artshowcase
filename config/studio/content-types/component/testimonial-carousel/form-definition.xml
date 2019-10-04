@@ -159,7 +159,7 @@
                   </field>
                   <field>
                      <type>textarea</type>
-                     <id>testimonial</id>
+                     <id>testimonial_t</id>
                      <iceId/>
                      <title>Testimonial</title>
                      <description/>
