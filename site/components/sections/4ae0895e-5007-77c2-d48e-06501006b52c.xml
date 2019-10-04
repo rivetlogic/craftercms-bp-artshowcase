@@ -7,7 +7,7 @@
 	<file-name>4ae0895e-5007-77c2-d48e-06501006b52c.xml</file-name>
 	<internal-name>Testimonials Section</internal-name>
 	<navigationName_t>Testimonials</navigationName_t>
-	<backgroundVideo>/static-assets/video/Computer Keyboard - 3174.mp4</backgroundVideo>
+	<backgroundVideo_s>/static-assets/video/Computer Keyboard - 3174.mp4</backgroundVideo_s>
 	<components>	<item>	<value>Testimonials</value>
 	<key>/site/components/section-headers/testimonials.xml</key>
 	<include>/site/components/section-headers/testimonials.xml</include>

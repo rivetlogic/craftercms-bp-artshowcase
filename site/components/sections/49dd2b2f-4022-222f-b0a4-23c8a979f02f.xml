@@ -7,7 +7,7 @@
 	<file-name>49dd2b2f-4022-222f-b0a4-23c8a979f02f.xml</file-name>
 	<internal-name>Intro Section</internal-name>
 	<navigationName_t>Intro</navigationName_t>
-	<backgroundVideo>/static-assets/video/museum minute.mp4</backgroundVideo>
+	<backgroundVideo_s>/static-assets/video/museum minute.mp4</backgroundVideo_s>
 	<components>	<item>	<key>/site/components/intro-hero.xml</key>
 	<value>Intro Hero Text</value>
 	<include>/site/components/intro-hero.xml</include>
