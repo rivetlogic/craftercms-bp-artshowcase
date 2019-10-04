@@ -11,7 +11,7 @@
 	<createdDate_dt>2017-5-10T15:59:1.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-10T16:36:55.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-10T16:36:55.000Z</lastModifiedDate_dt>
-	<teammates>	<item>	<key>/site/components/teammates/jack-corfield.xml</key>
+	<teammates_o>	<item>	<key>/site/components/teammates/jack-corfield.xml</key>
 	<value>Jack Corfield</value>
 	<include>/site/components/teammates/jack-corfield.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -27,5 +27,5 @@
 	<value>Brock Roe</value>
 	<include>/site/components/teammates/brock-roe.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></teammates>
+	</item></teammates_o>
 </component>

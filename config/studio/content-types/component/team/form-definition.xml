@@ -95,7 +95,7 @@
          <fields>
             <field>
                <type>node-selector</type>
-               <id>teammates</id>
+               <id>teammates_o</id>
                <iceId/>
                <title>Teammates</title>
                <description/>
@@ -147,7 +147,7 @@
    <datasources>
       <datasource>
          <type>child-content</type>
-         <id>teammates</id>
+         <id>teammates_o</id>
          <title>Teammates</title>
          <interface>item</interface>
          <properties>
