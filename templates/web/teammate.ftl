@@ -4,7 +4,7 @@
     <div class="single_team m-t-2" <@studio.iceAttr iceGroup="visible" path=contentModel.storeUrl label="${contentModel.fullName_t}" /> >
         <div class="team_social_area text-center m-b-1">
             <#list (contentModel.socialLinks_o.item)![] as social>
-                <a href="${social.url}"><i class="fa ${social.network}"></i></a>
+                <a href="${social.url}"><i class="fa ${social.network_s}"></i></a>
             </#list>
         </div>
         <img src="${contentModel.photo_s}" alt="" />

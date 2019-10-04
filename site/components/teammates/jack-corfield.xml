@@ -11,8 +11,8 @@
 	<title_t>Art Deco Curator</title_t>
 	<photo_s>/static-assets/images/people/team1.jpg</photo_s>
 	<socialLinks_o>	<item>	<url>http://www.linkedin.com/company/crafter-software</url>
-	<network>fa-linkedin-square</network>
-	</item>	<item>	<network>fa-github-alt</network>
+	<network_s>fa-linkedin-square</network_s>
+	</item>	<item>	<network_s>fa-github-alt</network_s>
 	<url>https://github.com/craftercms/</url>
 	</item></socialLinks_o>
 	<createdDate>2017-5-9T21:33:41.000Z</createdDate>

@@ -250,7 +250,7 @@
                <fields>
                   <field>
                      <type>dropdown</type>
-                     <id>network</id>
+                     <id>network_s</id>
                      <iceId/>
                      <title>Network</title>
                      <description/>
