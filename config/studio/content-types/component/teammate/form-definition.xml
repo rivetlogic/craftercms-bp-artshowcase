@@ -143,7 +143,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>fullName</id>
+               <id>fullName_t</id>
                <iceId>visible</iceId>
                <title>Full Name</title>
                <description/>
