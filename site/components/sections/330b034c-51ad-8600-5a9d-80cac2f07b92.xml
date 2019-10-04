@@ -8,7 +8,7 @@
 	<internal-name>Our Services Section</internal-name>
 	<navigationName_t>Our Services</navigationName_t>
 	<backgroundVideo/>
-	<components>	<item>	<key>/site/components/section-headers/our-services.xml</key>
+	<components_o>	<item>	<key>/site/components/section-headers/our-services.xml</key>
 	<value>Our Services</value>
 	<include>/site/components/section-headers/our-services.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -20,7 +20,7 @@
 	<key>/site/components/services/private-exhibitions.xml</key>
 	<include>/site/components/services/private-exhibitions.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></components>
+	</item></components_o>
 	<createdDate>2017-5-2T17:49:56.000Z</createdDate>
 	<createdDate_dt>2017-5-2T17:49:56.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-8T16:9:55.000Z</lastModifiedDate>

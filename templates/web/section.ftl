@@ -15,8 +15,8 @@
     <div class="row">
       <div class="col-md-12 ">
         <div class="main_area p-t-3" >
-          <#if (contentModel.components.item)?? >
-            <#list contentModel.components.item as module>
+          <#if (contentModel.components_o.item)?? >
+            <#list contentModel.components_o.item as module>
               <@renderComponent component=module />
             </#list>
           </#if>
