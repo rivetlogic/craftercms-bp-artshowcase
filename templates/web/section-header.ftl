@@ -8,8 +8,8 @@
       </div>
       <div class="col-md-8">
         <h6>${contentModel.description_t!}</h6>
-        <#if contentModel.additional?? >
-          <p>${contentModel.additional}</p>
+        <#if contentModel.additional_html?? >
+          <p>${contentModel.additional_html}</p>
         </#if>
       </div>
     </div>
