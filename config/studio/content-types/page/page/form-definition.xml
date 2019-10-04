@@ -216,7 +216,7 @@
          <fields>
             <field>
                <type>label</type>
-               <id>mapCoordinatesInstructions</id>
+               <id>mapCoordinatesInstructions_s</id>
                <iceId/>
                <title>Map Coordinates Instructions</title>
                <description/>
@@ -233,7 +233,7 @@
             </field>
             <field>
                <type>label</type>
-               <id>validLatitude</id>
+               <id>validLatitude_s</id>
                <iceId/>
                <title>Valid Latitude</title>
                <description/>
@@ -293,7 +293,7 @@
             </field>
             <field>
                <type>label</type>
-               <id>validLongitude</id>
+               <id>validLongitude_s</id>
                <iceId/>
                <title>Valid Longitude</title>
                <description/>
