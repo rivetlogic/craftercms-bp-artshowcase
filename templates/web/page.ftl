@@ -47,7 +47,7 @@
     <script src="/static-assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   </head>
   <body id="body" data-spy="scroll" data-target="#scrollspy" >
-    <div class="main_figur" <@studio.componentContainerAttr target="sectionComponents_o" objectId=model.objectId /> >
+    <div class="main_figur" <@studio.componentContainerAttr target="sectionComponents" objectId=model.objectId /> >
       <div class="container">
         <div class="div-menu">
             <header class="cd-header">
