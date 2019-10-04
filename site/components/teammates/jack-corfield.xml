@@ -9,7 +9,7 @@
 	<internal-name>Jack Corfield</internal-name>
 	<fullName>Jack Corfield</fullName>
 	<title_t>Art Deco Curator</title_t>
-	<photo>/static-assets/images/people/team1.jpg</photo>
+	<photo_s>/static-assets/images/people/team1.jpg</photo_s>
 	<socialLinks>	<item>	<url>http://www.linkedin.com/company/crafter-software</url>
 	<network>fa-linkedin-square</network>
 	</item>	<item>	<network>fa-github-alt</network>

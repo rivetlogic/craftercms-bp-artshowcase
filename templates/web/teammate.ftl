@@ -7,7 +7,7 @@
                 <a href="${social.url}"><i class="fa ${social.network}"></i></a>
             </#list>
         </div>
-        <img src="${contentModel.photo}" alt="" />
+        <img src="${contentModel.photo_s}" alt="" />
         <div class="single_team_text text-center">
             <h6>${contentModel.fullName}</h6>
             <p>${contentModel.title_t}</p>
