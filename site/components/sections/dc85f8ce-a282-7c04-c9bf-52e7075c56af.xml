@@ -11,7 +11,7 @@
 	<createdDate_dt>2017-4-27T18:48:56.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-8T16:9:40.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-8T16:9:40.000Z</lastModifiedDate_dt>
-	<components_o>	<item>	<key>/site/components/section-headers/about-us.xml</key>
+	<components>	<item>	<key>/site/components/section-headers/about-us.xml</key>
 	<value>About Us</value>
 	<include>/site/components/section-headers/about-us.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -19,6 +19,6 @@
 	<key>/site/components/about-highlights.xml</key>
 	<include>/site/components/about-highlights.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></components_o>
+	</item></components>
 	<navigationName_t>About Us</navigationName_t>
 </component>

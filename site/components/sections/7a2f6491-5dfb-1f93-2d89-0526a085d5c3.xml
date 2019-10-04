@@ -8,7 +8,7 @@
 	<internal-name>Curators Section</internal-name>
 	<navigationName_t>Curators</navigationName_t>
 	<backgroundVideo/>
-	<components_o>	<item>	<value>Curators Header</value>
+	<components>	<item>	<value>Curators Header</value>
 	<key>/site/components/section-headers/curators.xml</key>
 	<include>/site/components/section-headers/curators.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -16,7 +16,7 @@
 	<value>Curators</value>
 	<include>/site/components/curators.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></components_o>
+	</item></components>
 	<createdDate>2017-5-3T22:59:13.000Z</createdDate>
 	<createdDate_dt>2017-5-3T22:59:13.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-10T15:58:52.000Z</lastModifiedDate>
