@@ -7,13 +7,13 @@
 	<internal-name>About Highlights</internal-name>
 	<file-name>about-highlights.xml</file-name>
 	<folder-name/>
-	<features>	<item>	<logo>/static-assets/images/logo-lightbulb.png</logo>
+	<features>	<item>	<logo_s>/static-assets/images/logo-lightbulb.png</logo_s>
 	<title_t>Inspiration</title_t>
 	<description_t>&lt;p&gt;A place of tranquility in the middle of a bustling city. The perfect place to draw inspiration.&lt;/p&gt;</description_t>
 	</item>	<item>	<title_t>Design</title_t>
-	<logo>/static-assets/images/logo-button.png</logo>
+	<logo_s>/static-assets/images/logo-button.png</logo_s>
 	<description_t>&lt;p&gt;Blending classic architecture with the latest technology to create a deeper more interactive experience.&lt;/p&gt;</description_t>
-	</item>	<item>	<logo>/static-assets/images/logo-lock.png</logo>
+	</item>	<item>	<logo_s>/static-assets/images/logo-lock.png</logo_s>
 	<title_t>Security</title_t>
 	<description_t>&lt;p&gt;The latest 24/7 security systems keep visitors and artworks safe.&lt;/p&gt;</description_t>
 	</item></features>

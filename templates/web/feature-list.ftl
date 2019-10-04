@@ -6,7 +6,7 @@
       <div class="col-md-4">
         <div class="single_abt single_about ${feature?is_last?then('m-t-3','m-y-3')}">
           <i class="fa">
-            <img src="${feature.logo}" />
+            <img src="${feature.logo_s}" />
           </i>
           <h3>${feature.title_t}</h3>
           <p>${feature.description_t!}</p>
