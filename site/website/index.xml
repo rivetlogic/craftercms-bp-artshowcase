@@ -42,7 +42,7 @@
 	<key>/site/components/sections/9ee910b7-efa2-e0ed-f515-85cfa1a81233.xml</key>
 	<include>/site/components/sections/9ee910b7-efa2-e0ed-f515-85cfa1a81233.xml</include>
 	</item></components>
-	<locationLatitude>9.937113</locationLatitude>
-	<locationLongitude>-84.093040</locationLongitude>
+	<locationLatitude_s>9.937113</locationLatitude_s>
+	<locationLongitude_s>-84.093040</locationLongitude_s>
 	<title_t>Art Gallery</title_t>
 </page>

@@ -250,7 +250,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>locationLatitude</id>
+               <id>locationLatitude_s</id>
                <iceId/>
                <title>Location Latitude</title>
                <description/>
@@ -310,7 +310,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>locationLongitude</id>
+               <id>locationLongitude_s</id>
                <iceId/>
                <title>Location Longitude</title>
                <description/>

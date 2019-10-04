@@ -197,13 +197,13 @@
     <script src="/static-assets/js/gmaps.min.js"></script>
 
     <script>
-    	var locationLatitude = ${contentModel.locationLatitude!0};
-        var locationLongitude = ${contentModel.locationLongitude!0};
+    	var locationLatitude_s = ${contentModel.locationLatitude_s!0};
+        var locationLongitude_s = ${contentModel.locationLongitude_s!0};
         var alertMsg = "";
-        if( !(-85<locationLatitude && locationLatitude<85) ){
+        if( !(-85<locationLatitude_s && locationLatitude_s<85) ){
             alertMsg += "Invalid latitude. Must be between -85 and 85.\n";
         }
-        if( !(-180<locationLongitude && locationLongitude<180) ){
+        if( !(-180<locationLongitude_s && locationLongitude_s<180) ){
             alertMsg += "Invalid longitude. Must be between -180 and 180.\n";
         }
         if( alertMsg ){
@@ -212,8 +212,8 @@
 
         var map = new GMaps({
             el: '.ourmap',
-            lat: locationLatitude,
-            lng: locationLongitude,
+            lat: locationLatitude_s,
+            lng: locationLongitude_s,
             gestureHandling: 'none',
             scrollwheel: false,
             zoom: 15,
@@ -227,8 +227,8 @@
                         {gamma: 0.50}]}]
         });
         map.addMarker({
-            lat: ${contentModel.locationLatitude!0},
-            lng: ${contentModel.locationLongitude!0}
+            lat: ${contentModel.locationLatitude_s!0},
+            lng: ${contentModel.locationLongitude_s!0}
         });
     </script>
 
