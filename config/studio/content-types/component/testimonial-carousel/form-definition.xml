@@ -116,7 +116,7 @@
                <fields>
                   <field>
                      <type>input</type>
-                     <id>reviewer</id>
+                     <id>reviewer_t</id>
                      <iceId/>
                      <title>Reviewer</title>
                      <description/>

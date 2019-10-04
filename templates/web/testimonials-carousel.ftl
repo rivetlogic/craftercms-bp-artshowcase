@@ -6,7 +6,7 @@
         <#list contentModel.testimonials.item as testimonial>
           <div class="testimonial">
             <h3 class="">${testimonial.testimonial}</h3>  
-            <p>- ${testimonial.reviewer}</p>
+            <p>- ${testimonial.reviewer_t}</p>
           </div>
         </#list>
       </#if>
