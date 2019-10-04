@@ -88,7 +88,7 @@
             </field>
             <field>
                <type>repeat</type>
-               <id>gallery</id>
+               <id>gallery_o</id>
                <iceId>gallery</iceId>
                <title>Gallery</title>
                <description/>

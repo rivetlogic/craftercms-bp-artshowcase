@@ -11,7 +11,7 @@
 	<createdDate_dt>2017-5-4T19:24:33.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-4T20:39:12.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-4T20:39:12.000Z</lastModifiedDate_dt>
-	<gallery>	<item>	<photo>/static-assets/images/gallery//pf11.jpg</photo>
+	<gallery_o>	<item>	<photo>/static-assets/images/gallery//pf11.jpg</photo>
 	</item>	<item>	<photo>/static-assets/images/gallery/pf12.jpg</photo>
 	</item>	<item>	<photo>/static-assets/images/gallery/pf13.jpg</photo>
 	</item>	<item>	<photo>/static-assets/images/gallery/pf14.jpg</photo>
@@ -20,5 +20,5 @@
 	</item>	<item>	<photo>/static-assets/images/gallery/pf21.jpg</photo>
 	</item>	<item>	<photo>/static-assets/images/gallery/pf22.jpg</photo>
 	</item>	<item>	<photo>/static-assets/images/gallery/pf31.jpg</photo>
-	</item></gallery>
+	</item></gallery_o>
 </component>
