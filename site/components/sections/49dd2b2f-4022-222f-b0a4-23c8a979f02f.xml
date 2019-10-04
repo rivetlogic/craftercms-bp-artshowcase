@@ -8,11 +8,11 @@
 	<internal-name>Intro Section</internal-name>
 	<navigationName_t>Intro</navigationName_t>
 	<backgroundVideo_s>/static-assets/video/museum minute.mp4</backgroundVideo_s>
-	<components>	<item>	<key>/site/components/intro-hero.xml</key>
+	<components_o>	<item>	<key>/site/components/intro-hero.xml</key>
 	<value>Intro Hero Text</value>
 	<include>/site/components/intro-hero.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></components>
+	</item></components_o>
 	<createdDate>2017-5-8T19:48:20.000Z</createdDate>
 	<createdDate_dt>2017-5-8T19:48:20.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-9T19:6:23.000Z</lastModifiedDate>

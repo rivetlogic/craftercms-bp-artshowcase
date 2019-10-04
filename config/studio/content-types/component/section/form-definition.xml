@@ -174,7 +174,7 @@
          <fields>
             <field>
                <type>node-selector</type>
-               <id>components</id>
+               <id>components_o</id>
                <iceId>section-contents</iceId>
                <title>Components</title>
                <description/>
