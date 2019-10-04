@@ -10,7 +10,7 @@
         <img src="${contentModel.photo}" alt="" />
         <div class="single_team_text text-center">
             <h6>${contentModel.fullName}</h6>
-            <p>${contentModel.title}</p>
+            <p>${contentModel.title_t}</p>
         </div>
     </div>
 </div>

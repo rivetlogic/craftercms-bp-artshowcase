@@ -8,7 +8,7 @@
           <i class="fa">
             <img src="${feature.logo}" />
           </i>
-          <h3>${feature.title}</h3>
+          <h3>${feature.title_t}</h3>
           <p>${feature.description!}</p>
         </div>
       </div>

@@ -9,7 +9,7 @@
         </div>
         <div class="col-md-5">
             <div class="single_service p-r-1 wow fadeInUp">
-                <h2 class="m-b-2">${contentModel.title}</h2>
+                <h2 class="m-b-2">${contentModel.title_t}</h2>
                 ${contentModel.description}
             </div>
         </div>
