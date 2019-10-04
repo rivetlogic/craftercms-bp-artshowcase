@@ -204,7 +204,7 @@
             </field>
             <field>
                <type>dropdown</type>
-               <id>imagePosition</id>
+               <id>imagePosition_s</id>
                <iceId>visible</iceId>
                <title>Image Position</title>
                <description/>
