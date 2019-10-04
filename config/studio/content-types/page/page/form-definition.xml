@@ -161,7 +161,7 @@
          <fields>
             <field>
                <type>node-selector</type>
-               <id>sectionComponents</id>
+               <id>sectionComponents_o</id>
                <iceId>page-contents</iceId>
                <title>Section Components</title>
                <description/>

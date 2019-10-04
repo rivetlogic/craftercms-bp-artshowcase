@@ -47,7 +47,7 @@
     <script src="/static-assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   </head>
   <body id="body" data-spy="scroll" data-target="#scrollspy" >
-    <div class="main_figur" <@studio.componentContainerAttr target="sectionComponents" objectId=model.objectId /> >
+    <div class="main_figur" <@studio.componentContainerAttr target="sectionComponents_o" objectId=model.objectId /> >
       <div class="container">
         <div class="div-menu">
             <header class="cd-header">
@@ -59,7 +59,7 @@
 		<#-- Navigation menu -->
         <nav id="main-nav">
             <ul>
-              <#list (contentModel.sectionComponents.item)![] as section>
+              <#list (contentModel.sectionComponents_o.item)![] as section>
                 <#assign sectionContentItem =  siteItemService.getSiteItem(section.key) />
                 <#if sectionContentItem.navigationName_t??>
                   <#assign sectionId><@theme.internalNameToID name=sectionContentItem.navigationName_t /></#assign>
@@ -74,7 +74,7 @@
 
 
       <#-- Print each section -->
-      <#list (contentModel.sectionComponents.item)![] as section>
+      <#list (contentModel.sectionComponents_o.item)![] as section>
         <@renderComponent component=section />
       </#list>
 

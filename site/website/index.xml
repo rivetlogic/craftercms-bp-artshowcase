@@ -13,7 +13,7 @@
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-9T17:55:53.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-9T17:55:53.000Z</lastModifiedDate_dt>
-	<sectionComponents>	<item>	<value>Intro Section</value>
+	<sectionComponents_o>	<item>	<value>Intro Section</value>
 	<key>/site/components/sections/49dd2b2f-4022-222f-b0a4-23c8a979f02f.xml</key>
 	<include>/site/components/sections/49dd2b2f-4022-222f-b0a4-23c8a979f02f.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -37,7 +37,7 @@
 	<key>/site/components/sections/4ae0895e-5007-77c2-d48e-06501006b52c.xml</key>
 	<include>/site/components/sections/4ae0895e-5007-77c2-d48e-06501006b52c.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></sectionComponents>
+	</item></sectionComponents_o>
 	<components>	<item>	<value>Contact</value>
 	<key>/site/components/sections/9ee910b7-efa2-e0ed-f515-85cfa1a81233.xml</key>
 	<include>/site/components/sections/9ee910b7-efa2-e0ed-f515-85cfa1a81233.xml</include>
