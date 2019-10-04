@@ -200,7 +200,7 @@
                   </field>
                   <field>
                      <type>rte</type>
-                     <id>description</id>
+                     <id>description_t</id>
                      <iceId>description</iceId>
                      <title>Description</title>
                      <description/>

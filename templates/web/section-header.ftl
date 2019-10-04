@@ -7,7 +7,7 @@
         <h2>${contentModel.title_t!}</h2>
       </div>
       <div class="col-md-8">
-        <h6>${contentModel.description!}</h6>
+        <h6>${contentModel.description_t!}</h6>
         <#if contentModel.additional?? >
           <p>${contentModel.additional}</p>
         </#if>

@@ -9,13 +9,13 @@
 	<folder-name/>
 	<features>	<item>	<logo>/static-assets/images/logo-lightbulb.png</logo>
 	<title_t>Inspiration</title_t>
-	<description>&lt;p&gt;A place of tranquility in the middle of a bustling city. The perfect place to draw inspiration.&lt;/p&gt;</description>
+	<description_t>&lt;p&gt;A place of tranquility in the middle of a bustling city. The perfect place to draw inspiration.&lt;/p&gt;</description_t>
 	</item>	<item>	<title_t>Design</title_t>
 	<logo>/static-assets/images/logo-button.png</logo>
-	<description>&lt;p&gt;Blending classic architecture with the latest technology to create a deeper more interactive experience.&lt;/p&gt;</description>
+	<description_t>&lt;p&gt;Blending classic architecture with the latest technology to create a deeper more interactive experience.&lt;/p&gt;</description_t>
 	</item>	<item>	<logo>/static-assets/images/logo-lock.png</logo>
 	<title_t>Security</title_t>
-	<description>&lt;p&gt;The latest 24/7 security systems keep visitors and artworks safe.&lt;/p&gt;</description>
+	<description_t>&lt;p&gt;The latest 24/7 security systems keep visitors and artworks safe.&lt;/p&gt;</description_t>
 	</item></features>
 	<createdDate>2017-4-27T22:36:19.000Z</createdDate>
 	<createdDate_dt>2017-4-27T22:36:19.000Z</createdDate_dt>

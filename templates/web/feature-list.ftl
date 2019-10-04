@@ -9,7 +9,7 @@
             <img src="${feature.logo}" />
           </i>
           <h3>${feature.title_t}</h3>
-          <p>${feature.description!}</p>
+          <p>${feature.description_t!}</p>
         </div>
       </div>
       <#if feature?index%3==2 && !feature?is_last>
