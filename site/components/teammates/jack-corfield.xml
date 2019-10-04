@@ -10,10 +10,10 @@
 	<fullName_t>Jack Corfield</fullName_t>
 	<title_t>Art Deco Curator</title_t>
 	<photo_s>/static-assets/images/people/team1.jpg</photo_s>
-	<socialLinks_o>	<item>	<url>http://www.linkedin.com/company/crafter-software</url>
+	<socialLinks_o>	<item>	<url_s>http://www.linkedin.com/company/crafter-software</url_s>
 	<network_s>fa-linkedin-square</network_s>
 	</item>	<item>	<network_s>fa-github-alt</network_s>
-	<url>https://github.com/craftercms/</url>
+	<url_s>https://github.com/craftercms/</url_s>
 	</item></socialLinks_o>
 	<createdDate>2017-5-9T21:33:41.000Z</createdDate>
 	<createdDate_dt>2017-5-9T21:33:41.000Z</createdDate_dt>
