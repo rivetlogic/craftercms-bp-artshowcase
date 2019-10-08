@@ -23,7 +23,13 @@ media:
   screenshots:
     - title: Home Page
       description: Screenshot of the home page
-      url: ""
+      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-artshowcase/master/static-assets/images/screenshots/bp_artshowcase_home.png"
+    - title: Gallery Page
+      description: Screenshot of the home page
+      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-artshowcase/master/static-assets/images/screenshots/bp_artshowcase_gallery.png"
+    - title: Testimonials/Contact Page
+      description: Screenshot of the home page
+      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-artshowcase/master/static-assets/images/screenshots/bp_artshowcase_testimonials_contact.png"
 developer:
   company:
     name: Rivet Logic
@@ -38,7 +44,7 @@ license:
 crafterCmsVersions:
   - major: 3
     minor: 1
-    patch: 1
+    patch: 4
 crafterCmsEditions:
   - community
   - enterprise
