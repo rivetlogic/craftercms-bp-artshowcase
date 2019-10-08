@@ -23,7 +23,7 @@ media:
   screenshots:
     - title: Home Page
       description: Screenshot of the home page
-      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-artshowcase/master/static-assets/images/screenshots/bp_artshowcase_home.png"
+      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-artshowcase/master/static-assets/images/screenshots/bp_artshowcase_homepage.png"
     - title: Gallery Page
       description: Screenshot of the home page
       url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-artshowcase/master/static-assets/images/screenshots/bp_artshowcase_gallery.png"
