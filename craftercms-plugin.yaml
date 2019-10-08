@@ -14,38 +14,38 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 0
+    patch: 1
   description: |
     Art Showcase is a stylish single page Crafter CMS blueprint with video backgrounds.
   website:
     name: "Art Showcase"
-media:
-  screenshots:
-    - title: Home Page
-      description: Screenshot of the home page
-      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-artshowcase/master/static-assets/images/screenshots/bp_artshowcase_home.png"
-    - title: Gallery Page
-      description: Screenshot of the home page
-      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-artshowcase/master/static-assets/images/screenshots/bp_artshowcase_gallery.png"
-    - title: Testimonials/Contact Page
-      description: Screenshot of the home page
-      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-artshowcase/master/static-assets/images/screenshots/bp_artshowcase_testimonials_contact.png"
-developer:
+  media:
+    screenshots:
+      - title: Home Page
+        description: Screenshot of the home page
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-artshowcase/master/static-assets/images/screenshots/bp_artshowcase_home.png"
+      - title: Gallery Page
+        description: Screenshot of the home page
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-artshowcase/master/static-assets/images/screenshots/bp_artshowcase_gallery.png"
+      - title: Testimonials/Contact Page
+        description: Screenshot of the home page
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-artshowcase/master/static-assets/images/screenshots/bp_artshowcase_testimonials_contact.png"
+  developer:
   company:
     name: Rivet Logic
     email: info@rivetlogic.com
     url: https://rivetlogic.com
-build:
-  id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
-  date: 2019-01-23T00:00:00Z
-license:
-  name: MIT
-  url: https://opensource.org/licenses/MIT
-crafterCmsVersions:
-  - major: 3
-    minor: 1
-    patch: 4
-crafterCmsEditions:
-  - community
-  - enterprise
-searchEngine: Elasticsearch
+  build:
+    id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
+    date: 2019-01-23T00:00:00Z
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  crafterCmsVersions:
+    - major: 3
+      minor: 1
+      patch: 4
+  crafterCmsEditions:
+    - community
+    - enterprise
+  searchEngine: Elasticsearch
