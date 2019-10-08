@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section</content-type>	<display-template>/templates/web/section.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>678f</objectGroupId>
+	<objectId>678f847d-d62d-7299-bbf0-d95f253f8164</objectId>
+	<file-name>678f847d-d62d-7299-bbf0-d95f253f8164.xml</file-name>
+	<internal-name>Gallery Section</internal-name>
+	<backgroundVideo/>
+	<components_o>	<item>	<key>/site/components/section-headers/gallery.xml</key>
+	<value>Gallery Header</value>
+	<include>/site/components/section-headers/gallery.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/gallery.xml</key>
+	<value>Gallery</value>
+	<include>/site/components/gallery.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></components_o>
+	<createdDate>2017-4-27T19:18:34.000Z</createdDate>
+	<createdDate_dt>2017-4-27T19:18:34.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-9T17:56:56.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-9T17:56:56.000Z</lastModifiedDate_dt>
+	<navigationName_t>Gallery</navigationName_t>
+</component>

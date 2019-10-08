@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section-header</content-type>	<display-template>/templates/web/section-header.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d5a0</objectGroupId>
+	<objectId>d5a0bf5b-2958-0937-e9fb-0a9b38092b6b</objectId>
+	<internal-name>Curators Header</internal-name>
+	<title_t>Curators</title_t>
+	<description_t>Each of our curators is a leading expert in his area, ensuring we acquire the finest artworks and take proper care of them.</description_t>
+	<file-name>curators.xml</file-name>
+	<folder-name/>
+	<additional/>
+	<createdDate>2017-5-3T23:0:57.000Z</createdDate>
+	<createdDate_dt>2017-5-3T23:0:57.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-8T16:10:21.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-8T16:10:21.000Z</lastModifiedDate_dt>
+</component>

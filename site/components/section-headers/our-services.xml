@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section-header</content-type>	<display-template>/templates/web/section-header.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2566</objectGroupId>
+	<objectId>2566c1e9-c243-5f6e-bc0f-cd8f0bea2ba7</objectId>
+	<file-name>our-services.xml</file-name>
+	<folder-name/>
+	<internal-name>Our Services Header</internal-name>
+	<title_t>Our Services</title_t>
+	<description_t>Luxuriate in a variety of prestigious services that only we can provide and that you, too, can employ.</description_t>
+	<additional/>
+	<createdDate>2017-5-2T18:1:36.000Z</createdDate>
+	<createdDate_dt>2017-5-2T18:1:36.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-8T16:10:31.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-8T16:10:31.000Z</lastModifiedDate_dt>
+</component>

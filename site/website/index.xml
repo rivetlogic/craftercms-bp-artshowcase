@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/page</content-type>	<display-template>/templates/web/page.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<placeInNav>false</placeInNav>
+	<file-name>index.xml</file-name>
+	<internal-name>Home</internal-name>
+	<orderDefault_f>-1</orderDefault_f>
+	<objectGroupId>8d7f</objectGroupId>
+	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+	<folder-name/>
+	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
+	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-9T17:55:53.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-9T17:55:53.000Z</lastModifiedDate_dt>
+	<sectionComponents_o>	<item>	<value>Intro Section</value>
+	<key>/site/components/sections/49dd2b2f-4022-222f-b0a4-23c8a979f02f.xml</key>
+	<include>/site/components/sections/49dd2b2f-4022-222f-b0a4-23c8a979f02f.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/sections/dc85f8ce-a282-7c04-c9bf-52e7075c56af.xml</key>
+	<value>About Us Section</value>
+	<include>/site/components/sections/dc85f8ce-a282-7c04-c9bf-52e7075c56af.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<value>Gallery Section</value>
+	<key>/site/components/sections/678f847d-d62d-7299-bbf0-d95f253f8164.xml</key>
+	<include>/site/components/sections/678f847d-d62d-7299-bbf0-d95f253f8164.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/sections/330b034c-51ad-8600-5a9d-80cac2f07b92.xml</key>
+	<value>Our Services Section</value>
+	<include>/site/components/sections/330b034c-51ad-8600-5a9d-80cac2f07b92.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/sections/7a2f6491-5dfb-1f93-2d89-0526a085d5c3.xml</key>
+	<value>Curators Section</value>
+	<include>/site/components/sections/7a2f6491-5dfb-1f93-2d89-0526a085d5c3.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<value>Testimonials Section</value>
+	<key>/site/components/sections/4ae0895e-5007-77c2-d48e-06501006b52c.xml</key>
+	<include>/site/components/sections/4ae0895e-5007-77c2-d48e-06501006b52c.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></sectionComponents_o>
+	<components>	<item>	<value>Contact</value>
+	<key>/site/components/sections/9ee910b7-efa2-e0ed-f515-85cfa1a81233.xml</key>
+	<include>/site/components/sections/9ee910b7-efa2-e0ed-f515-85cfa1a81233.xml</include>
+	</item></components>
+	<locationLatitude_s>9.937113</locationLatitude_s>
+	<locationLongitude_s>-84.093040</locationLongitude_s>
+	<title_t>Art Gallery</title_t>
+</page>

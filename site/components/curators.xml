@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/team</content-type>	<display-template>/templates/web/team.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f21d</objectGroupId>
+	<objectId>f21d1378-460f-53ab-63f3-7dc6aa01246d</objectId>
+	<file-name>curators.xml</file-name>
+	<folder-name/>
+	<internal-name>Curators</internal-name>
+	<createdDate>2017-5-10T15:59:1.000Z</createdDate>
+	<createdDate_dt>2017-5-10T15:59:1.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-10T16:36:55.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-10T16:36:55.000Z</lastModifiedDate_dt>
+	<teammates_o>	<item>	<key>/site/components/teammates/jack-corfield.xml</key>
+	<value>Jack Corfield</value>
+	<include>/site/components/teammates/jack-corfield.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/teammates/mohammad-alamin.xml</key>
+	<value>Mohammad Alamin</value>
+	<include>/site/components/teammates/mohammad-alamin.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/teammates/brock-tardent.xml</key>
+	<value>Brock Tardent</value>
+	<include>/site/components/teammates/brock-tardent.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/teammates/brock-roe.xml</key>
+	<value>Brock Roe</value>
+	<include>/site/components/teammates/brock-roe.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></teammates_o>
+</component>

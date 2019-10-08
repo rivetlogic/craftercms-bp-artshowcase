@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/level-descriptor</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9646</objectGroupId>
+	<objectId>96467409-8169-df56-64c4-8f6991807c52</objectId>
+	<file-name>crafter-level-descriptor.level.xml</file-name>
+	<folder-name/>
+	<siteLogo>/static-assets/images/logo.png</siteLogo>
+	<createdDate>2017-4-27T22:5:16.000Z</createdDate>
+	<createdDate_dt>2017-4-27T22:5:16.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-8T19:57:40.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-8T19:57:40.000Z</lastModifiedDate_dt>
+	<contactEmails>	<item>	<email>emmanuel.abarca@rivetlogic.com</email>
+	</item></contactEmails>
+</component>

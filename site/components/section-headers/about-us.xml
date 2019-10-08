@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/section-header</content-type>	<display-template>/templates/web/section-header.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2ac3</objectGroupId>
+	<objectId>2ac3d7e8-3ff5-2941-9fa2-82ed09a3ed91</objectId>
+	<file-name>about-us.xml</file-name>
+	<folder-name/>
+	<internal-name>About Us Header</internal-name>
+	<title_t>About Us</title_t>
+	<description_t>With 200 years of expertise, we've become one of the finest galleries where an artist can be featured, guaranteeing visitors an experience without peer.</description_t>
+	<createdDate>2017-4-26T19:44:40.000Z</createdDate>
+	<createdDate_dt>2017-4-26T19:44:40.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-8T16:10:44.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-8T16:10:44.000Z</lastModifiedDate_dt>
+	<additional_html>&lt;p&gt;Come and bask on what makes us unique.&lt;/p&gt;</additional_html>
+</component>

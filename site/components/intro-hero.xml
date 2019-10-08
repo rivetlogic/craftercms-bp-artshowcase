@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/hero-text</content-type>	<display-template>/templates/web/hero-text.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0246</objectGroupId>
+	<objectId>0246367b-fa41-e90a-a283-e22f6c02902b</objectId>
+	<file-name>intro-hero.xml</file-name>
+	<folder-name/>
+	<internal-name>Intro Hero Text</internal-name>
+	<text_t>Everything is designed. 
+Few things are designed well.</text_t>
+	<createdDate>2017-5-8T19:55:21.000Z</createdDate>
+	<createdDate_dt>2017-5-8T19:55:21.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-8T19:55:21.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-8T19:55:21.000Z</lastModifiedDate_dt>
+</component>

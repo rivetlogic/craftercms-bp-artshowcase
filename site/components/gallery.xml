@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/gallery</content-type>	<display-template>/templates/web/gallery.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1452</objectGroupId>
+	<objectId>1452cda5-303b-e6e4-45bf-58c71af1324f</objectId>
+	<internal-name>Gallery</internal-name>
+	<file-name>gallery.xml</file-name>
+	<folder-name/>
+	<createdDate>2017-5-4T19:24:33.000Z</createdDate>
+	<createdDate_dt>2017-5-4T19:24:33.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-4T20:39:12.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-4T20:39:12.000Z</lastModifiedDate_dt>
+	<gallery_o>	<item>	<photo_s>/static-assets/images/gallery//pf11.jpg</photo_s>
+	</item>	<item>	<photo_s>/static-assets/images/gallery/pf12.jpg</photo_s>
+	</item>	<item>	<photo_s>/static-assets/images/gallery/pf13.jpg</photo_s>
+	</item>	<item>	<photo_s>/static-assets/images/gallery/pf14.jpg</photo_s>
+	</item>	<item>	<photo_s>/static-assets/images/gallery/pf15.jpg</photo_s>
+	</item>	<item>	<photo_s>/static-assets/images/gallery/pf32.jpg</photo_s>
+	</item>	<item>	<photo_s>/static-assets/images/gallery/pf21.jpg</photo_s>
+	</item>	<item>	<photo_s>/static-assets/images/gallery/pf22.jpg</photo_s>
+	</item>	<item>	<photo_s>/static-assets/images/gallery/pf31.jpg</photo_s>
+	</item></gallery_o>
+</component>

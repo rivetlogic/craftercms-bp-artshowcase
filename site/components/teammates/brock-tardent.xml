@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/teammate</content-type>	<display-template>/templates/web/teammate.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>dc6d</objectGroupId>
+	<objectId>dc6d55f8-260b-1486-db6b-2b19baaf4e90</objectId>
+	<file-name>brock-tardent.xml</file-name>
+	<folder-name/>
+	<internal-name>Brock Tardent</internal-name>
+	<fullName_t>Brock Tardent</fullName_t>
+	<title_t>Expressionism Curator</title_t>
+	<photo_s>/static-assets/images/people/team3.jpg</photo_s>
+	<createdDate>2017-5-9T21:36:36.000Z</createdDate>
+	<createdDate_dt>2017-5-9T21:36:36.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-10T16:39:58.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-10T16:39:58.000Z</lastModifiedDate_dt>
+	<socialLinks_o>	<item>	<url_s>https://plus.google.com/110099014556368664399</url_s>
+	<network_s>fa-google-plus</network_s>
+	</item></socialLinks_o>
+</component>
