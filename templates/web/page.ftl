@@ -1,5 +1,4 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-<#import "/templates/system/common/debugging.ftl" as debug />
 <#import "/templates/web/common/macros.ftl" as theme />
 <#include "/templates/web/navigation/navigation.ftl">
 
