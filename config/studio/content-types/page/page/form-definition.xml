@@ -382,7 +382,7 @@
          </properties>
       </datasource>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>components</id>
          <title>Components</title>
          <interface>item</interface>
