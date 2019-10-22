@@ -146,7 +146,7 @@
    </sections>
    <datasources>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>teammates_o</id>
          <title>Teammates</title>
          <interface>item</interface>
