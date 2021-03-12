@@ -1,9 +1,9 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/ice.ftl" as studio />
 <#import "/templates/web/common/macros.ftl" as theme />
 <#include "/templates/web/navigation/navigation.ftl">
 
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>${contentModel.title_t}</title>
@@ -12,11 +12,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Raleway Google fonts  -->
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,400italic,500,100italic,700' rel='stylesheet' type='text/css'>
+    <link
+            href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,400italic,500,100italic,700'
+            rel='stylesheet' type='text/css'
+    >
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css" rel="stylesheet">
-
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css"
+            rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="/static-assets/css/normalize.css">
     <link rel="stylesheet" href="/static-assets/css/fonticons.css">
@@ -45,196 +50,219 @@
     <!--Old browser  JS-->
     <script src="/static-assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   </head>
-  <body id="body" data-spy="scroll" data-target="#scrollspy" >
-    <div class="main_figur" <@studio.componentContainerAttr target="sectionComponents_o" objectId=model.objectId /> >
-      <div class="container">
-        <div class="div-menu">
-            <header class="cd-header">
-                <a href="/#" class="brand-logo text-left"><img src="${contentModel.siteLogo}" alt="" /></a>
-                <a class="cd-menu-trigger" href="#main-nav"><span></span></a>
-            </header>
-        </div>
-
-		<#-- Navigation menu -->
-        <nav id="main-nav">
-            <ul>
-              <#list (contentModel.sectionComponents_o.item)![] as section>
-                <#assign sectionContentItem =  siteItemService.getSiteItem(section.key) />
-                <#if sectionContentItem.navigationName_t??>
-                  <#assign sectionId><@theme.internalNameToID name=sectionContentItem.navigationName_t /></#assign>
-                  <li><a href="#${sectionId}">${sectionContentItem.navigationName_t}</a></li>
-                </#if>
-              </#list>
-            </ul>
-            <a href="#" class="cd-close-menu">Close<span></span></a>
-        </nav>
+  <body id="body" data-spy="scroll" data-target="#scrollspy">
+  <div class="main_figur">
+    <div class="container">
+      <div class="div-menu">
+        <header class="cd-header">
+          <a href="/#" class="brand-logo text-left">
+            <@studio.img
+              $field="siteLogo"
+              src=(contentModel.siteLogo)
+              alt=""
+            />
+          </a>
+          <a class="cd-menu-trigger" href="#main-nav"><span></span></a>
+        </header>
       </div>
 
-
+        <#-- Navigation menu -->
+      <nav id="main-nav">
+        <ul>
+          <#list (contentModel.sectionComponents_o.item)![] as section>
+            <#assign sectionContentItem =  siteItemService.getSiteItem(section.key) />
+            <#if sectionContentItem.navigationName_t??>
+              <#assign sectionId><@theme.internalNameToID name=sectionContentItem.navigationName_t /></#assign>
+              <li><a href="#${sectionId}">${sectionContentItem.navigationName_t}</a></li>
+            </#if>
+          </#list>
+        </ul>
+        <a href="#" class="cd-close-menu">Close<span></span></a>
+      </nav>
+    </div>
 
       <#-- Print each section -->
-      <#list (contentModel.sectionComponents_o.item)![] as section>
-        <@renderComponent component=section />
-      </#list>
+    <#list (contentModel.sectionComponents_o.item)![] as section>
+      <@renderComponent component=section />
+    </#list>
 
-      <!-- Contact Section -->
-      <section id="contactus" class="contactus colorsbg">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="main_service_area main_contactus_area">
+    <!-- Contact Section -->
+    <section id="contactus" class="contactus colorsbg">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="main_service_area main_contactus_area">
 
-                    <#-- Google Map -->
-                    <div class="row row-eq-height">
-                        <div class="col-md-6 no-padding">
-                            <div class="contact_us_right wow fadeInLeft">
-                                <div class="single_contactus">
-                                    <div class="ourmap"></div>
-                                </div>
-                            </div>
-                        </div><!-- End of col-md-6 -->
-
-
-                        <div class="col-md-6 no-padding wow rollIn">
-                            <div class="main_contact_area p-t-2 p-x-3">
-                                <div class="head_title">
-                                    <h2>Contact Us</h2>
-                                </div>
-                                <div class="single_contant_right">
-                                    <form action="/doContact" id="contactFormId" method="post">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="name" placeholder="Your Name..." required="">
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="phone" placeholder="Phone" required="">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control" name="email" placeholder="Your Email Address" required="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <textarea class="form-control" name="message" rows="8" placeholder="Your Message" required=""></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <input type="hidden" name="contextURL" value="/${contentModel['folder-name']}" >
-                                        <div class="row">
-                                            <div class="m-b-2 m-t-2">
-                                                <button id="contactSubmit" >Send message</button>
-                                                <input type="submit" value="Send message" style="display:none" />
-                                            </div>
-                                        </div>
-                                    </form>
-
-                                </div>
-                                <!-- Copyright -->
-                                <div class="row">
-                                    <div class="main_footer">
-                                        <div class="col-md-3">
-                                            <div class="footer_logo text-xs-center m-b-2">
-                                                <a href="#home"><img src="${contentModel.siteLogo}" alt="" /></a>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-8">
-
-                                        </div>
-                                        <div class="col-md-1 no-padding">
-                                            <div class="scrollup center">
-                                                <a href="#"><i class="fa fa-chevron-up"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- End of row -->
-                            </div><!-- End of main contact area -->
-
-                        </div><!-- End of col-md-6 -->
-                    </div>
+              <#-- Google Map -->
+            <div class="row row-eq-height">
+              <div class="col-md-6 no-padding">
+                <div class="contact_us_right wow fadeInLeft">
+                  <div class="single_contactus">
+                    <div class="ourmap"></div>
+                  </div>
                 </div>
-            </div><!-- End of row -->
-        </div><!-- End of container -->
-      </section><!-- End of Contactus Section -->
-    </div>
+              </div><!-- End of col-md-6 -->
 
-    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-        <!-- The container for the modal slides -->
-        <div class="slides"></div>
-        <!-- Controls for the borderless lightbox -->
-        <h3 class="title">title</h3>
-        <a class="prev">‹</a>
-        <a class="next">›</a>
-        <a class="close">×</a>
-        <!-- The modal dialog, which will be used to wrap the lightbox content -->
-    </div>
+              <div class="col-md-6 no-padding wow rollIn">
+                <div class="main_contact_area p-t-2 p-x-3">
+                  <div class="head_title">
+                    <h2>Contact Us</h2>
+                  </div>
+                  <div class="single_contant_right">
+                    <form action="/doContact" id="contactFormId" method="post">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input
+                              type="text" class="form-control" name="name"
+                              placeholder="Your Name..." required=""
+                            >
+                          </div>
+                        </div>
+                      </div>
 
-    <script src="/static-assets/js/vendor/jquery-1.11.2.min.js"></script>
-    <script src="/static-assets/js/vendor/bootstrap.min.js"></script>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input
+                              type="text" class="form-control" name="phone" placeholder="Phone"
+                              required=""
+                            >
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input
+                              type="email" class="form-control" name="email"
+                              placeholder="Your Email Address" required=""
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <textarea
+                              class="form-control" name="message" rows="8"
+                              placeholder="Your Message" required=""
+                            ></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <input type="hidden" name="contextURL" value="/${contentModel['folder-name']}">
+                      <div class="row">
+                        <div class="m-b-2 m-t-2">
+                          <button id="contactSubmit">Send message</button>
+                          <input type="submit" value="Send message" style="display:none" />
+                        </div>
+                      </div>
+                    </form>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-    <script src="/static-assets/js/jquery.waypoints.min.js"></script>
-    <script src="/static-assets/js/jquery.scrollindicatorbullets.min.js"></script>
-    <script src="/static-assets/js/jquery.easing.1.3.js"></script>
-    <script src="/static-assets/js/materialize.js"></script>
-    <script src="/static-assets/js/jquery.magnific-popup.js"></script>
-    <script src="/static-assets/js/freewall.js"></script>
-    <script src="/static-assets/js/kendo.ui.core.min.js"></script>
+                  </div>
+                  <!-- Copyright -->
+                  <div class="row">
+                    <div class="main_footer">
+                      <div class="col-md-3">
+                        <div class="footer_logo text-xs-center m-b-2">
+                          <a href="#home">
+                            <@studio.img
+                              $field="siteLogo"
+                              src=(contentModel.siteLogo)
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
 
-    <script src="http://maps.google.com/maps/api/js"></script>
-    <script src="/static-assets/js/gmaps.min.js"></script>
+                      <div class="col-md-8">
 
-    <script>
-    	var locationLatitude_s = ${contentModel.locationLatitude_s!0};
-        var locationLongitude_s = ${contentModel.locationLongitude_s!0};
-        var alertMsg = "";
-        if( !(-85<locationLatitude_s && locationLatitude_s<85) ){
-            alertMsg += "Invalid latitude. Must be between -85 and 85.\n";
-        }
-        if( !(-180<locationLongitude_s && locationLongitude_s<180) ){
-            alertMsg += "Invalid longitude. Must be between -180 and 180.\n";
-        }
-        if( alertMsg ){
-            alert( alertMsg );
-        }
+                      </div>
+                      <div class="col-md-1 no-padding">
+                        <div class="scrollup center">
+                          <a href="#"><i class="fa fa-chevron-up"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End of row -->
+                </div><!-- End of main contact area -->
 
-        var map = new GMaps({
-            el: '.ourmap',
-            lat: locationLatitude_s,
-            lng: locationLongitude_s,
-            gestureHandling: 'none',
-            scrollwheel: false,
-            zoom: 15,
-            zoomControl: true,
-            panControl: false,
-            streetViewControl: true,
-            mapTypeControl: false,
-            overviewMapControl: false,
-            clickable: false,
-            styles: [{'stylers': [{'hue': '#000'}, {saturation: -200},
-                        {gamma: 0.50}]}]
-        });
-        map.addMarker({
-            lat: ${contentModel.locationLatitude_s!0},
-            lng: ${contentModel.locationLongitude_s!0}
-        });
-    </script>
+              </div><!-- End of col-md-6 -->
+            </div>
+          </div>
+        </div><!-- End of row -->
+      </div><!-- End of container -->
+    </section><!-- End of Contactus Section -->
+  </div>
 
-    <script src="/static-assets/js/plugins.js"></script>
-    <script src="/static-assets/js/vendor/owl.carousel.min.js"></script>
-    <script src="/static-assets/js/main.js"></script>
-    <script src="/static-assets/js/jquery.blueimp-gallery.min.js"></script>
-    <@studio.toolSupport/>
-  </body>
+  <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+  <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title">title</h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+  </div>
+
+  <script src="/static-assets/js/vendor/jquery-1.11.2.min.js"></script>
+  <script src="/static-assets/js/vendor/bootstrap.min.js"></script>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <script src="/static-assets/js/jquery.waypoints.min.js"></script>
+  <script src="/static-assets/js/jquery.scrollindicatorbullets.min.js"></script>
+  <script src="/static-assets/js/jquery.easing.1.3.js"></script>
+  <script src="/static-assets/js/materialize.js"></script>
+  <script src="/static-assets/js/jquery.magnific-popup.js"></script>
+  <script src="/static-assets/js/freewall.js"></script>
+  <script src="/static-assets/js/kendo.ui.core.min.js"></script>
+
+  <script src="http://maps.google.com/maps/api/js"></script>
+  <script src="/static-assets/js/gmaps.min.js"></script>
+
+  <script>
+    var locationLatitude_s = ${contentModel.locationLatitude_s!0};
+    var locationLongitude_s = ${contentModel.locationLongitude_s!0};
+    var alertMsg = '';
+    if (!(-85 < locationLatitude_s && locationLatitude_s < 85)) {
+      alertMsg += 'Invalid latitude. Must be between -85 and 85.\n';
+    }
+    if (!(-180 < locationLongitude_s && locationLongitude_s < 180)) {
+      alertMsg += 'Invalid longitude. Must be between -180 and 180.\n';
+    }
+    if (alertMsg) {
+      alert(alertMsg);
+    }
+
+    var map = new GMaps({
+      el: '.ourmap',
+      lat: locationLatitude_s,
+      lng: locationLongitude_s,
+      gestureHandling: 'none',
+      scrollwheel: false,
+      zoom: 15,
+      zoomControl: true,
+      panControl: false,
+      streetViewControl: true,
+      mapTypeControl: false,
+      overviewMapControl: false,
+      clickable: false,
+      styles: [{
+        'stylers': [{ 'hue': '#000' }, { saturation: -200 },
+          { gamma: 0.50 }]
+      }]
+    });
+    map.addMarker({
+      lat: ${contentModel.locationLatitude_s!0},
+      lng: ${contentModel.locationLongitude_s!0}
+    });
+  </script>
+
+  <script src="/static-assets/js/plugins.js"></script>
+  <script src="/static-assets/js/vendor/owl.carousel.min.js"></script>
+  <script src="/static-assets/js/main.js"></script>
+  <script src="/static-assets/js/jquery.blueimp-gallery.min.js"></script>
+  <@studio.initPageBuilder/>
+</body>
 </html>

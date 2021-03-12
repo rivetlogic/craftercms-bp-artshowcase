@@ -1,13 +1,16 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio/>
+<#import "/templates/system/common/ice.ftl" as studio/>
 <#import "/templates/web/common/macros.ftl" as theme />
 
 <#assign sectionId><@theme.internalNameToID name=contentModel.navigationName_t /></#assign>
-<section class="scroll-section" <#if (contentModel.navigationName_t)??>id="${sectionId}"</#if> <@studio.componentAttr path=contentModel.storeUrl /> >
+<section class="scroll-section" <#if (contentModel.navigationName_t)??>id="${sectionId}"</#if>>
   <#if contentModel.backgroundVideo_s?? && (contentModel.backgroundVideo_s?length>0) >
     <div class="fullscreen-bg">
-        <video playsinline autoplay muted loop>
-            <source src="${contentModel.backgroundVideo_s}" type="video/mp4">
-        </video>
+      <@studio.video $field="backgroundVideo_s" playsinline="true" autoplay="true" muted="true" loop="true">
+        <source src="${contentModel.backgroundVideo_s}" type="video/mp4">
+      </@studio.video>
+      <video playsinline autoplay muted loop>
+        <source src="${contentModel.backgroundVideo_s}" type="video/mp4">
+      </video>
     </div>
     <div class="overlay"></div>
   </#if>
