@@ -82,9 +82,14 @@
     </div>
 
       <#-- Print each section -->
-    <#list (contentModel.sectionComponents_o.item)![] as section>
-      <@renderComponent component=section />
-    </#list>
+    <@studio.tag $field="sectionComponents_o">
+      <#list (contentModel.sectionComponents_o.item)![] as section>
+        <#assign index = section?index />
+        <@studio.tag $field="sectionComponents_o" $index=index>
+          <@renderComponent component=section />
+        </@studio.tag>
+      </#list>
+    </@studio.tag>
 
     <!-- Contact Section -->
     <section id="contactus" class="contactus colorsbg">

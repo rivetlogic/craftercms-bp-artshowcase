@@ -1,6 +1,6 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 
-<@studio.componentRootTag $tag="div" class="container">
+<div class="container">
   <div class="grid-sizer"></div>
   <#if contentModel.gallery_o?? && contentModel.gallery_o.item??>
     <#list contentModel.gallery_o.item as image>
@@ -14,4 +14,4 @@
       </a>
     </#list>
   </#if>
-</@studio.componentRootTag>
+</div>

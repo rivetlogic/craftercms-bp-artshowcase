@@ -1,10 +1,10 @@
 <#import "/templates/system/common/ice.ftl" as studio/>
 
-<@studio.componentRootTag $tag="div" class="container about_content center wow fadeInUp" $attrs={'data-wow-duration': '700ms'}>
-  <div class="row">
+<div class="container about_content center wow fadeInUp" data-wow-duration="700ms">
+  <@studio.tag $field="features" class="row">
     <#list (contentModel.features.item)![] as feature>
       <#assign index = feature?index>
-      <div class="col-md-4" $field="features" $index=index>
+      <@studio.tag $field="features" $index=index class="col-md-4" $field="features" $index=index>
         <div class="single_abt single_about ${feature?is_last?then('m-t-3','m-y-3')}">
           <i class="fa">
             <@studio.img
@@ -20,11 +20,11 @@
             ${feature.description_t!}
           </@studio.span>
         </div>
-      </div>
-        <#if feature?index%3==2 && !feature?is_last>
-          </div>
-          <div class="row">
-        </#if>
+      </@studio.tag>
+      <#if feature?index%3==2 && !feature?is_last>
+        </div>
+        <div class="row">
+      </#if>
     </#list>
-  </div>
-</@studio.componentRootTag>
+  </@studio.tag>
+</div>
