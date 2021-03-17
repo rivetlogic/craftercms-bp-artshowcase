@@ -421,7 +421,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/feature-list,/component/gallery,/component/hero-text,/component/section,/component/section-header,/component/team,/component/service,/component/testimonial-carousel</value>
+							<value>/component/section</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
