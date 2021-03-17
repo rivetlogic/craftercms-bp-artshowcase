@@ -18,11 +18,7 @@
     <div class="row">
       <div class="col-md-12 ">
         <div class="main_area p-t-3" >
-          <#if (contentModel.components_o.item)?? >
-            <#list contentModel.components_o.item as module>
-              <@renderComponent component=module />
-            </#list>
-          </#if>
+          <@studio.renderComponentCollection $field="components_o" />
         </div>
       </div>
     </div>
