@@ -1,7 +1,7 @@
 <#import "/templates/system/common/ice.ftl" as studio/>
 
 <div class="container about_content center wow fadeInUp" data-wow-duration="700ms">
-  <@studio.tag $field="features" class="row">
+  <@studio.tag $field="features" class="row repeating-container">
     <#list (contentModel.features.item)![] as feature>
       <#assign index = feature?index>
       <@studio.tag $field="features" $index=index class="col-md-4" $field="features" $index=index>

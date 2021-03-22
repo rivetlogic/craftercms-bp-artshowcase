@@ -2,7 +2,7 @@
 
 <div class="container">
   <div class="main_team_content wow fadeInUp">
-    <@studio.tag $field="teammates_o" class="row">
+    <@studio.tag $field="teammates_o" class="row repeating-container">
       <#list (contentModel.teammates_o.item)![] as teammate>
         <#assign index = teammate?index />
         <@studio.tag $field="teammates_o" $index=index class="col-md-3 col-xs-12">

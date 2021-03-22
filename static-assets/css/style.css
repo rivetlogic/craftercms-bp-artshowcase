@@ -874,6 +874,10 @@ section .testimonial p {
     text-transform: uppercase;
 }
 
+.components-container:empty, .repeating-container:empty {
+    padding: 50px;
+}
+
 .gallery{
     display: block;
     position: relative;

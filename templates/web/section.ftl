@@ -18,7 +18,7 @@
     <div class="row">
       <div class="col-md-12 ">
         <div class="main_area p-t-3" >
-          <@studio.renderComponentCollection $field="components_o" />
+          <@studio.renderComponentCollection $field="components_o" class="components-container" />
         </div>
       </div>
     </div>
