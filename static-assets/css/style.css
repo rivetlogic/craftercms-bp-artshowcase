@@ -419,7 +419,7 @@ section:not(.contactus) > .container-fluid {
 .single_service_area .row.image-right :not(:first-child){
     right: 50%;
 }
-.single_service_area .row.image-right :not(:first-child)>*{
+.single_service_area .row.image-right :not(:first-child)>div{
     margin-left: 15%;
 }
 
@@ -872,6 +872,10 @@ section .testimonial p {
     font-weight: 100;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+.components-container:empty, .repeating-container:empty {
+    padding: 50px;
 }
 
 .gallery{

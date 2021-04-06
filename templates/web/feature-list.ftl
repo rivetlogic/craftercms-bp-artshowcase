@@ -1,21 +1,30 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio/>
+<#import "/templates/system/common/ice.ftl" as studio/>
 
-<div class="container about_content center wow fadeInUp" data-wow-duration="700ms" <@studio.iceAttr iceGroup="features" path=contentModel.storeUrl label="Features" /> >
-  <div class="row">
-  	<#list (contentModel.features.item)![] as feature>
-      <div class="col-md-4">
+<div class="container about_content center wow fadeInUp" data-wow-duration="700ms">
+  <@studio.tag $field="features" class="row repeating-container">
+    <#list (contentModel.features.item)![] as feature>
+      <#assign index = feature?index>
+      <@studio.tag $field="features" $index=index class="col-md-4" $field="features" $index=index>
         <div class="single_abt single_about ${feature?is_last?then('m-t-3','m-y-3')}">
           <i class="fa">
-            <img src="${feature.logo_s}" />
+            <@studio.img
+              $field="features.logo_s"
+              $index=index
+              src=(feature.logo_s)
+            />
           </i>
-          <h3>${feature.title_t}</h3>
-          <p>${feature.description_t!}</p>
+          <@studio.h3 $field="features.title_t" $index=index>
+            ${feature.title_t}
+          </@studio.h3>
+          <@studio.span $field="features.description_t" $index=index>
+            ${feature.description_t!}
+          </@studio.span>
         </div>
-      </div>
+      </@studio.tag>
       <#if feature?index%3==2 && !feature?is_last>
-  </div>
-  <div class="row">
+        </div>
+        <div class="row">
       </#if>
     </#list>
-  </div>
+  </@studio.tag>
 </div>
