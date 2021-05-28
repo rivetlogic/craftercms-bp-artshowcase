@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <#import "/templates/web/common/macros.ftl" as theme />
 <#include "/templates/web/navigation/navigation.ftl">
 
@@ -49,14 +49,16 @@
 
     <!--Old browser  JS-->
     <script src="/static-assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <@crafter.head/>
   </head>
   <body id="body" data-spy="scroll" data-target="#scrollspy">
+  <@crafter.body_top/>
   <div class="main_figur">
     <div class="container">
       <div class="div-menu">
         <header class="cd-header">
           <a href="/#" class="brand-logo text-left">
-            <@studio.img
+            <@crafter.img
               $field="siteLogo"
               src=(contentModel.siteLogo)
               alt=""
@@ -82,14 +84,14 @@
     </div>
 
       <#-- Print each section -->
-    <@studio.tag $field="sectionComponents_o">
+    <@crafter.tag $field="sectionComponents_o">
       <#list (contentModel.sectionComponents_o.item)![] as section>
         <#assign index = section?index />
-        <@studio.tag $field="sectionComponents_o" $index=index>
+        <@crafter.tag $field="sectionComponents_o" $index=index>
           <@renderComponent component=section />
-        </@studio.tag>
+        </@crafter.tag>
       </#list>
-    </@studio.tag>
+    </@crafter.tag>
 
     <!-- Contact Section -->
     <section id="contactus" class="contactus colorsbg">
@@ -169,7 +171,7 @@
                       <div class="col-md-3">
                         <div class="footer_logo text-xs-center m-b-2">
                           <a href="#home">
-                            <@studio.img
+                            <@crafter.img
                               $field="siteLogo"
                               src=(contentModel.siteLogo)
                               alt=""
@@ -268,6 +270,6 @@
   <script src="/static-assets/js/vendor/owl.carousel.min.js"></script>
   <script src="/static-assets/js/main.js"></script>
   <script src="/static-assets/js/jquery.blueimp-gallery.min.js"></script>
-  <@studio.initPageBuilder/>
+  <@crafter.body_bottom/>
 </body>
 </html>

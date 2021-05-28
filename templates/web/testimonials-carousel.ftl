@@ -2,7 +2,7 @@
 
 <div class="carousel-container text-center p-y-3 m-b-3">
 
-  <@studio.renderRepeatCollection
+  <@crafter.renderRepeatCollection
     $field="testimonials_o"
     $containerTag="div"
     $containerAttributes={'class': 'carousel owl-carousel'}
@@ -10,15 +10,15 @@
     $itemAttributes={'class': 'testimonial'};
     testimonial, index
   >
-    <@studio.h3 $field="testimonials_o.testimonial_t" $index=index>
+    <@crafter.h3 $field="testimonials_o.testimonial_t" $index=index>
       ${testimonial.testimonial_t}
-    </@studio.h3>
+    </@crafter.h3>
     <p>
       -
-      <@studio.span $field="testimonials_o.reviewer_t" $index=index>
+      <@crafter.span $field="testimonials_o.reviewer_t" $index=index>
         ${testimonial.reviewer_t}
-      </@studio.span>
+      </@crafter.span>
     </p>
 
-  </@studio.renderRepeatCollection>
+  </@crafter.renderRepeatCollection>
 </div>

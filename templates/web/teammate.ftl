@@ -8,16 +8,16 @@
       </a>
     </#list>
   </div>
-  <@studio.img
+  <@crafter.img
     $field="photo_s"
     src=(contentModel.photo_s)
   />
   <div class="single_team_text text-center">
-    <@studio.h6 $field="fullName_t">
+    <@crafter.h6 $field="fullName_t">
       ${contentModel.fullName_t}
-    </@studio.h6>
-    <@studio.p $field="title_t">
+    </@crafter.h6>
+    <@crafter.p $field="title_t">
       ${contentModel.title_t}
-    </@studio.p>
+    </@crafter.p>
   </div>
 </div>
