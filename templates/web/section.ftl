@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio/>
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <#import "/templates/web/common/macros.ftl" as theme />
 
 <#assign sectionId><@theme.internalNameToID name=contentModel.navigationName_t /></#assign>
