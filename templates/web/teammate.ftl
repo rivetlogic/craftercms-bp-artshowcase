@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio/>
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <div class="single_team m-t-2">
   <div class="team_social_area text-center m-b-1">

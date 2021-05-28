@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio/>
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <div class="container about_content center wow fadeInUp" data-wow-duration="700ms">
   <@crafter.tag $field="features" class="row repeating-container">
