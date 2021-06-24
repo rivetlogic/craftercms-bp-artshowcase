@@ -13,9 +13,9 @@
           ${contentModel.description_t!}
         </@crafter.h6>
         <#if contentModel.additional_html?? >
-          <@crafter.tag $field="additional_html">
+          <@crafter.div $field="additional_html">
             ${contentModel.additional_html}
-          </@crafter.tag>
+          </@crafter.div>
         </#if>
       </div>
     </div>

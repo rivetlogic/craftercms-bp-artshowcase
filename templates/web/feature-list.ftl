@@ -1,10 +1,10 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <div class="container about_content center wow fadeInUp" data-wow-duration="700ms">
-  <@crafter.tag $field="features" class="row repeating-container">
+  <@crafter.div $field="features" class="row repeating-container">
     <#list (contentModel.features.item)![] as feature>
       <#assign index = feature?index>
-      <@crafter.tag $field="features" $index=index class="col-md-4" $field="features" $index=index>
+      <@crafter.div $field="features" $index=index class="col-md-4" $field="features" $index=index>
         <div class="single_abt single_about ${feature?is_last?then('m-t-3','m-y-3')}">
           <i class="fa">
             <@crafter.img
@@ -20,11 +20,11 @@
             ${feature.description_t!}
           </@crafter.span>
         </div>
-      </@crafter.tag>
+      </@crafter.div>
       <#if feature?index%3==2 && !feature?is_last>
         </div>
         <div class="row">
       </#if>
     </#list>
-  </@crafter.tag>
+  </@crafter.div>
 </div>

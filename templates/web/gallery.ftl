@@ -3,7 +3,7 @@
 <div class="container">
   <div class="grid-sizer"></div>
   <#if contentModel.gallery_o?? && contentModel.gallery_o.item??>
-    <@crafter.tag $field="gallery_o">
+    <@crafter.div $field="gallery_o">
       <#list contentModel.gallery_o.item as image>
         <#assign index = image?index>
         <a href="${image.photo_s!""}" data-gallery>
@@ -14,6 +14,6 @@
           />
         </a>
       </#list>
-    </@crafter.tag>
+    </@crafter.div>
   </#if>
 </div>
