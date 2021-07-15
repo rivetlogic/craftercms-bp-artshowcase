@@ -1,6 +1,5 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 <#import "/templates/web/common/macros.ftl" as theme />
-<#include "/templates/web/navigation/navigation.ftl">
 
 <!DOCTYPE html>
 <html lang="en">
