@@ -14,7 +14,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 26
+    patch: 27
   description: |
     Art Showcase is a stylish single page Crafter CMS blueprint with video backgrounds.
   website:
@@ -85,6 +85,12 @@ plugin:
     - major: 3
       minor: 1
       patch: 17
+    - major: 3
+      minor: 1
+      patch: 18
+    - major: 3
+      minor: 1
+      patch: 19
   crafterCmsEditions:
     - community
     - enterprise
