@@ -1,21 +1,21 @@
-<#import "/templates/system/common/ice.ftl" as studio/>
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <div class="container">
   <div class="head_title m-y-3  wow fadeInUp">
     <div class="row">
       <div class="col-md-4">
-        <@studio.h2 $field="title_t">
+        <@crafter.h2 $field="title_t">
           ${contentModel.title_t!}
-        </@studio.h2>
+        </@crafter.h2>
       </div>
       <div class="col-md-8">
-        <@studio.h6 $field="description_t">
+        <@crafter.h6 $field="description_t">
           ${contentModel.description_t!}
-        </@studio.h6>
+        </@crafter.h6>
         <#if contentModel.additional_html?? >
-          <@studio.tag $field="additional_html">
+          <@crafter.div $field="additional_html">
             ${contentModel.additional_html}
-          </@studio.tag>
+          </@crafter.div>
         </#if>
       </div>
     </div>
