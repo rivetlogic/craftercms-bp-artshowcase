@@ -199,7 +199,7 @@
                      </constraints>
                   </field>
                   <field>
-                     <type>rte-tinymce5</type>
+                     <type>rte</type>
                      <id>description_t</id>
                      <iceId>description</iceId>
                      <title>Description</title>
