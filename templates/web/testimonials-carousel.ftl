@@ -2,7 +2,7 @@
 
 <div class="carousel-container text-center p-y-3 m-b-3">
 
-  <@crafter.renderRepeatCollection
+  <@crafter.renderRepeatGroup
     $field="testimonials_o"
     $containerTag="div"
     $containerAttributes={'class': 'carousel owl-carousel'}
@@ -20,5 +20,5 @@
       </@crafter.span>
     </p>
 
-  </@crafter.renderRepeatCollection>
+  </@crafter.renderRepeatGroup>
 </div>
