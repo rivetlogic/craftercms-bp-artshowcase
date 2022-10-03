@@ -252,7 +252,7 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>components</id>
 					<title>Components</title>
 					<interface>item</interface>
