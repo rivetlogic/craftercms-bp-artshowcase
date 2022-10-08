@@ -145,7 +145,7 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>teammates_o</id>
 					<title>Teammates</title>
 					<interface>item</interface>
